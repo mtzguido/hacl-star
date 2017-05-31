@@ -8,6 +8,8 @@ open FStar.Buffer
 
 open C.Loops
 
+open Hacl.Hash.Lib.LoadStore
+
 open Hacl.Spec.Endianness
 open Hacl.Cast
 open Hacl.UInt8
@@ -43,18 +45,21 @@ private let uint8_p  = Buffer.buffer uint8_ht
 
 
 (* Definitions of aliases for functions *)
-[@"substitute"]
-private let u8_to_h8 = Hacl.Cast.uint8_to_sint8
-[@"substitute"]
-private let u32_to_h32 = Hacl.Cast.uint32_to_sint32
-[@"substitute"]
-private let u32_to_h64 = Hacl.Cast.uint32_to_sint64
-[@"substitute"]
-private let h32_to_h8  = Hacl.Cast.sint32_to_sint8
-[@"substitute"]
-private let h32_to_h64 = Hacl.Cast.sint32_to_sint64
-[@"substitute"]
-private let u64_to_h64 = Hacl.Cast.uint64_to_sint64
+private inline_for_extraction let u8_to_h8 = Hacl.Cast.uint8_to_sint8
+private inline_for_extraction let u32_to_h32 = Hacl.Cast.uint32_to_sint32
+private inline_for_extraction let u32_to_h64 = Hacl.Cast.uint32_to_sint64
+private inline_for_extraction let h32_to_h8  = Hacl.Cast.sint32_to_sint8
+private inline_for_extraction let h32_to_h64 = Hacl.Cast.sint32_to_sint64
+private inline_for_extraction let u64_to_h64 = Hacl.Cast.uint64_to_sint64
+
+
+#set-options "--max_fuel 0 --z3rlimit 25"
+
+(* Size and positions of objects in the state *)
+inline_for_extraction let size_key_w = Hash.size_block_w
+inline_for_extraction let size_state = size_key_w +^ Hash.size_state
+inline_for_extraction let pos_key_w = 0ul
+inline_for_extraction let pos_state_hash0 = pos_key_w +^ size_key_w
 
 
 //
@@ -125,6 +130,176 @@ val lemma_alloc:
               let counter = Seq.index seq_counter 0 in
               U32.v counter = 0))
 let lemma_alloc s = ()
+
+
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val init:
+  state :uint32_p {length state = v size_state} ->
+  key   :uint8_p  {length key = v Hash.size_block} ->
+  Stack unit
+        (requires (fun h0 -> live h0 state /\ live h0 key))
+        (ensures  (fun h0 r h1 -> live h1 state /\ modifies_1 state h0 h1))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let init state key =
+
+
+  (* Push a new memory frame *)
+  (**) push_frame();
+
+  (* Allocate and set initial values for ipad *)
+  let ipad = Buffer.create (uint8_to_sint8 0x36uy) Hash.size_block in
+
+  (* Retreive memory to store the key *)
+  let key_w = Buffer.sub state pos_key_w size_key_w in
+
+  (* Store the key for latter use *)
+  uint32s_from_be_bytes key_w key size_key_w;
+
+  (* Retreive memory for the inner hash state *)
+  let state_hash0 = Buffer.sub state pos_state_hash0 Hash.size_state in
+
+  (* Initialize the inner hash state *)
+  Hash.init state_hash0;
+
+  (* Step 2: xor "result of step 1" with ipad *)
+  xor_bytes_inplace ipad key Hash.size_block;
+  let s2 = ipad in
+
+  (* Step 3a: feed s2 to the inner hash function *)
+  Hash.update state_hash0 s2;
+
+  (* Pop the memory frame *)
+  (**) pop_frame()
+
+
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val update :
+  state :uint32_p{length state = v size_state} ->
+  data  :uint8_p {length data = v Hash.size_block} ->
+  Stack unit
+        (requires (fun h0 -> live h0 state /\ live h0 data))
+        (ensures  (fun h0 r h1 -> live h1 state /\ modifies_1 state h0 h1))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let update state data =
+
+  (* Select the part of the state used by the inner hash function *)
+  let state_hash0 = Buffer.sub state pos_state_hash0 Hash.size_state in
+
+  (* Process the rest of the data *)
+  Hash.update state_hash0 data
+
+
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val update_multi:
+  state :uint32_p{length state = v size_state} ->
+  data  :uint8_p {length data % v Hash.size_block = 0 /\ disjoint state data} ->
+  n     :uint32_t{v n * v Hash.size_block = length data} ->
+  Stack unit
+        (requires (fun h0 -> live h0 state /\ live h0 data))
+        (ensures  (fun h0 _ h1 -> live h1 state /\ modifies_1 state h0 h1))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let rec update_multi state data n =
+
+  if n =^ 0ul then ()
+  else
+    begin
+    (* Get the current block for the data *)
+    let b = Buffer.sub data 0ul Hash.size_block in
+
+    (* Remove the current block from the data left to process *)
+    let data = Buffer.offset data Hash.size_block in
+    assert(disjoint b data);
+
+    (* Call the update function on the current block *)
+    update state b;
+
+    (* Recursive call *)
+    update_multi state data (n -^ 1ul) end
+
+
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val update_last:
+  state :uint32_p{length state = v Hash.size_state} ->
+  data  :uint8_p {length data <= v Hash.size_block} ->
+  len   :uint32_t {v len = length data} ->
+  Stack unit
+        (requires (fun h0 -> live h0 state /\ live h0 data))
+        (ensures  (fun h0 r h1 -> live h1 state /\ modifies_1 state h0 h1))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let update_last state data len =
+
+  (* Select the part of the state used by the inner hash function *)
+  let state_hash0 = Buffer.sub state pos_state_hash0 Hash.size_state in
+
+  (* Process the rest of the data *)
+  Hash.update_last state_hash0 data len
+
+
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val finish:
+  state :uint32_p{length state = U32.v size_state} ->
+  mac   :uint8_p {length mac = U32.v Hash.size_hash} ->
+  Stack unit
+        (requires (fun h0 -> live h0 state /\ live h0 mac))
+        (ensures  (fun h0 _ h1 -> live h1 state /\ live h1 mac /\ modifies_2 state mac h0 h1))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let finish state mac =
+
+  (* Push a new memory frame *)
+  (**) push_frame();
+
+  (* Allocate and set initial values for ipad and opad *)
+  let opad = Buffer.create (uint8_to_sint8 0x5cuy) Hash.size_block in
+
+  (* Allocate memory for the key conversions from words to bytes *)
+  let key = Buffer.create (uint8_to_sint8 0x00uy) Hash.size_block in
+
+  (* Allocate memory for the outer hash state *)
+  let state_hash1 = Buffer.create (uint32_to_sint32 0ul) Hash.size_state in
+
+  (* Retrieve the key from the state *)
+  let key_w = Buffer.sub state pos_key_w size_key_w in
+
+  (* Retrieve the state of the inner hash *)
+  let state_hash0 = Buffer.sub state pos_state_hash0 Hash.size_state in
+
+  (* Store the key into a flat buffer of bytes *)
+  uint32s_to_be_bytes key key_w Hash.size_block;
+
+  (* Step 4: apply H to "result of step 3" *)
+  Hash.finish state_hash0 mac; (* mac = s4 *)
+  let s4 = mac in
+
+  (* Step 5: xor "result of step 1" with opad *)
+  xor_bytes_inplace opad key Hash.size_block;
+  let s5 = opad in
+
+  (* Initialize outer hash state *)
+  Hash.init state_hash1;
+
+  (* Step 6: append "result of step 4" to "result of step 5" *)
+  (* Step 7: apply H to "result of step 6" *)
+  Hash.update state_hash1 s5;
+  Hash.update_last state_hash1 s4 Hash.size_hash;
+  Hash.finish state_hash1 mac;
+
+  (* Pop memory frame *)
+  (**) pop_frame()
 
 
 #reset-options "--max_fuel 0  --z3rlimit 20"
@@ -259,6 +434,55 @@ let hmac_part2 mac s5 s4 =
   (**) pop_frame ()
 
 
+#reset-options "--max_fuel 0  --z3rlimit 10"
+
+val hmac_core_incremental:
+  mac  :uint8_p  {length mac = v Hash.size_hash} ->
+  key  :uint8_p  {length key = v Hash.size_block /\ disjoint key mac} ->
+  data :uint8_p  {length data + v Hash.size_block < pow2 32 /\ disjoint data mac /\ disjoint data key} ->
+  len  :uint32_t {length data = v len} ->
+  Stack unit
+        (requires (fun h -> live h mac /\ live h key /\ live h data))
+        (ensures  (fun h0 _ h1 -> live h1 mac /\ live h0 mac
+                             /\ live h1 key /\ live h0 key
+                             /\ live h1 data /\ live h0 data /\ modifies_1 mac h0 h1
+                             /\ (reveal_sbytes (as_seq h1 mac) == Spec.hmac_core (reveal_sbytes (as_seq h0 key)) (reveal_sbytes (as_seq h0 data)))))
+
+#reset-options "--max_fuel 0  --z3rlimit 25"
+
+let hmac_core_incremental mac key data datalen =
+
+  (* Push a new memory frame *)
+  (**) push_frame();
+
+  (* Allocate memory for the mac state *)
+  let state = Buffer.create (u32_to_h32 0ul) size_state in
+
+  (* Compute the number of blocks to process *)
+  let n = datalen /^ Hash.size_block in
+  let r = datalen %^ Hash.size_block in
+  (**) cut(v datalen % v Hash.size_block <= v Hash.size_block);
+  (**) cut(v r <= v Hash.size_block);
+
+  (* Initialize the mac state *)
+  init state key;
+
+  (* Update the state with data blocks *)
+  update_multi state data n;
+
+  (* Get the last block *)
+  let input_last = Buffer.offset data (n *^ Hash.size_block) in
+
+  (* Process the last block of data *)
+  update_last state input_last r;
+
+  (* Finalize the mac output *)
+  finish state mac;
+
+  (* Pop the memory frame *)
+  (**) pop_frame()
+
+
 #reset-options "--max_fuel 0  --z3rlimit 20"
 
 val hmac_core:
@@ -347,7 +571,7 @@ let hmac mac key keylen data datalen =
   wrap_key nkey key keylen;
 
   (* Call the core HMAC function *)
-  hmac_core mac nkey data datalen;
+  hmac_core_incremental mac nkey data datalen;
 
   (* Pop the memory frame *)
   (**) pop_frame ()
