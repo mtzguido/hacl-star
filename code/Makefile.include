@@ -8,33 +8,6 @@ ifndef HACL_HOME
   # $(info HACL_HOME (abs) is at $(HACL_HOME_ABS))
 endif
 
-ifndef FSTAR_HOME
-  FSTAR_HOME:=$(HACL_HOME)/dependencies/FStar
-  FSTAR_HOME_ABS:=$(abspath $(FSTAR_HOME))
-else
-  ifndef FSTAR_HOME_ABS
-    FSTAR_HOME_ABS:=$(abspath $(FSTAR_HOME))
-  endif
-  FSTAR_HOME:=$(shell realpath --relative-to=$(CURDIR) $(FSTAR_HOME_ABS))
-endif
-
-export FSTAR_HOME_ABS
-export FSTAR_HOME
-
-
-ifndef KREMLIN_HOME
-  KREMLIN_HOME:=$(HACL_HOME)/dependencies/kremlin
-  KREMLIN_HOME_ABS:=$(abspath $(KREMLIN_HOME))
-else
-  ifndef KREMLIN_HOME_ABS
-    KREMLIN_HOME_ABS:=$(abspath $(KREMLIN_HOME))
-  endif
-  KREMLIN_HOME:=$(shell realpath --relative-to=$(CURDIR) $(KREMLIN_HOME_ABS))
-endif
-
-export KREMLIN_HOME_ABS
-export KREMLIN_HOME
-
 HINTS_ENABLED?=--use_hints
 
 # $(info CURDIR is at $(CURDIR))
@@ -77,14 +50,7 @@ KREMLIN_TESTLIB=-add-include '"testlib.h"' $(KREMLIB)/testlib.c
 
 FSTAR_LIB=$(FSTAR_HOME)/ulib
 FSTAR_INCLUDES+=--include $(HACL_KREMLIN) --include $(KREMLIB) --include $(HACL_HOME)/specs
-
-ifndef CLOUD_VERIFY
-  FSTAR=$(FSTAR_HOME)/bin/fstar.exe $(HINTS_ENABLED) $(OTHERFLAGS) $(FSTAR_INCLUDES)
-else
-  KREMLIN_HOME=\$$H/kremlin
-  CURRENT_SUBDIR:=$(subst $(abspath $(HACL_HOME))/,,$(abspath $(shell pwd)))
-  FSTAR=/mnt/f/dev/sec/FStar-cloud-verify/bin/fabc-make.exe add -i $(HACL_HOME)/tmpids -d '$(CURRENT_SUBDIR)' $(FABC_EXTRA) -- \$$H/bin/fstar.exe $(HINTS_ENABLED) $(OTHERFLAGS) $(FSTAR_INCLUDES)
-endif
+FSTAR=$(FSTAR_HOME)/bin/fstar.exe $(HINTS_ENABLED) $(OTHERFLAGS) $(FSTAR_INCLUDES)
 
 include $(FSTAR_HOME)/ulib/ml/Makefile.include
 

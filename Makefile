@@ -40,7 +40,7 @@ hints:
 	$(MAKE) -C code hints
 	$(MAKE) -C secure_api hints
 	$(MAKE) -C specs hints
-	$(MAKE) -C test hints 
+	$(MAKE) -C test hints
 
 refresh-hints:
 	$(MAKE) -B hints
