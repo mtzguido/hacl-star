@@ -8,7 +8,7 @@ ifndef HACL_HOME
   # $(info HACL_HOME (abs) is at $(HACL_HOME_ABS))
 endif
 
-ifndef FSTAR_HOME 
+ifndef FSTAR_HOME
   FSTAR_HOME:=$(HACL_HOME)/dependencies/FStar
   FSTAR_HOME_ABS:=$(abspath $(FSTAR_HOME))
 else
@@ -22,7 +22,7 @@ export FSTAR_HOME_ABS
 export FSTAR_HOME
 
 
-ifndef KREMLIN_HOME 
+ifndef KREMLIN_HOME
   KREMLIN_HOME:=$(HACL_HOME)/dependencies/kremlin
   KREMLIN_HOME_ABS:=$(abspath $(KREMLIN_HOME))
 else
@@ -76,9 +76,9 @@ KREMLIN_ARGS+=-I $(HACL_KREMLIN) -I $(KREMLIB) -I $(HACL_HOME)/specs -I .
 KREMLIN_TESTLIB=-add-include '"testlib.h"' $(KREMLIB)/testlib.c
 
 FSTAR_LIB=$(FSTAR_HOME)/ulib
-FSTAR_INCLUDES+=--include $(HACL_KREMLIN) --include $(KREMLIB) --include $(HACL_HOME)/specs 
+FSTAR_INCLUDES+=--include $(HACL_KREMLIN) --include $(KREMLIB) --include $(HACL_HOME)/specs
 
-ifndef CLOUD_VERIFY  
+ifndef CLOUD_VERIFY
   FSTAR=$(FSTAR_HOME)/bin/fstar.exe $(HINTS_ENABLED) $(OTHERFLAGS) $(FSTAR_INCLUDES)
 else
   KREMLIN_HOME=\$$H/kremlin
