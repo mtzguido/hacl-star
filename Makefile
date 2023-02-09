@@ -204,6 +204,15 @@ SHELL:=$(shell which bash)
 # throughout the tree with resource information. The $(RUNLIM) variable
 # can also be defined directly if so desired.
 ifneq ($(RESOURCEMONITOR),)
+define NO_RUNLIM_ERR
+runlim not found:
+  To use RESOURCEMONITOR=1, the `runlim` tool must be installed and in your $$PATH.
+  It must also be a recent version supporting the `-p` option.
+  You can get it from: [https://github.com/arminbiere/runlim]
+endef
+  ifeq ($(shell which runlim),)
+    _ := $(error $(NO_RUNLIM_ERR)))
+  endif
   RUNLIM = runlim -p -o $@.runlim
 endif
 
