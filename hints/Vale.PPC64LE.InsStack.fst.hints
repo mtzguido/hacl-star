@@ -118,7 +118,7 @@
         "typing_Vale.PPC64LE.Semantics_s.update_r1_"
       ],
       0,
-      "564b1c2d8cdb001a97b1074540f457cd"
+      "d2311c742b5d255621112b5b399b633d"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Alloc_stack",
@@ -192,7 +192,7 @@
         "typing_Vale.PPC64LE.Machine_s.__proj__Mkstate__item__vecs"
       ],
       0,
-      "39ded3054d51e6dc03c9feab6b6af13b"
+      "8b60ea7691bfca01f16fa402eb305370"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Alloc_stack",
@@ -205,7 +205,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "c2d7575540950f0526013e78541b5c98"
+      "b3e6457c5e5d06caa1be6921026748d4"
     ],
     [
       "Vale.PPC64LE.InsStack.va_lemma_Dealloc_stack",
@@ -333,7 +333,7 @@
         "typing_Vale.PPC64LE.Stack_Sems.stack_from_s"
       ],
       0,
-      "38a9fc19728c017ae0292a0f5d167d32"
+      "89d4213823d14b77fa28c6532d0929b8"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Dealloc_stack",
@@ -414,7 +414,7 @@
         "typing_Vale.PPC64LE.Stack_i.free_stack64"
       ],
       0,
-      "af0ee592e6ca72e9661ce8c096f3e105"
+      "e6adb131de218afb30dba8c099e0768b"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Dealloc_stack",
@@ -427,7 +427,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "07b9fd1952c31b939eb422fa848c147a"
+      "0ac4ad62337a81bcf814aaf743ae870d"
     ],
     [
       "Vale.PPC64LE.InsStack.va_lemma_Store_stack128",
@@ -529,7 +529,7 @@
         "typing_Vale.PPC64LE.Machine_s.valid_maddr_offset128"
       ],
       0,
-      "7ade395d903edbb19a81b6d29511faf1"
+      "d6dc2b449c3a5d369f51f1233f8a1bbe"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Store_stack128",
@@ -607,7 +607,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "0faf5dabc14dddf7cff6c7280bed1054"
+      "794f72bf7b1f23019628c96965ab1f46"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Store_stack128",
@@ -620,7 +620,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "a84e73f7554b2e4059c762415545c75c"
+      "97b03b98e58c99acf74501ed0bc2abc0"
     ],
     [
       "Vale.PPC64LE.InsStack.va_lemma_Load_stack128",
@@ -757,7 +757,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "bce5cc15afc24548513f5be1ca837bc0"
+      "459bffc11fe497b2c3d053a0a87b47a8"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Load_stack128",
@@ -830,7 +830,7 @@
         "typing_Vale.PPC64LE.State.update_vec"
       ],
       0,
-      "67d7cac04317e51edddeadf597df898a"
+      "1adbdf626198fc2c0d3c005ca662c79e"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Load_stack128",
@@ -843,7 +843,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "724c59b3e51c0ae775e7b2d3cd84da7a"
+      "33362c9f9b545c40157c8bb65a3cecd7"
     ],
     [
       "Vale.PPC64LE.InsStack.va_lemma_Store_stack64",
@@ -941,7 +941,7 @@
         "typing_Vale.PPC64LE.Machine_s.valid_maddr_offset64"
       ],
       0,
-      "8781869c5f89a987f78299929d1ae890"
+      "10d7a09695d05047837e13bd0dd3e220"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Store_stack64",
@@ -1018,7 +1018,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Secret@tok"
       ],
       0,
-      "b737217a18b63923597b6d745f1dd0ce"
+      "23de89477a0e702cf84e120bbd6d8b0c"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Store_stack64",
@@ -1031,7 +1031,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "d8a1f7a3be2a057f0a6a8046eef565f7"
+      "4e8fa0564d9dbf7f51a3bf05f4f01c71"
     ],
     [
       "Vale.PPC64LE.InsStack.va_lemma_Load_stack64",
@@ -1174,7 +1174,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "35d8b0a4f5f0e3f7cc30b2e8bfa9f875"
+      "5321569ee51933a5bbaaccec2921edbb"
     ],
     [
       "Vale.PPC64LE.InsStack.va_wpProof_Load_stack64",
@@ -1249,7 +1249,7 @@
         "typing_Vale.PPC64LE.State.update_reg"
       ],
       0,
-      "c423c6e10958b5221a4846cff1432038"
+      "775c6142b9d3256307327cc19d9e6a24"
     ],
     [
       "Vale.PPC64LE.InsStack.va_quick_Load_stack64",
@@ -1262,7 +1262,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "ce7459154bda4e517d543d8a3e15fab5"
+      "3fcf79b3cc9a884d67118b48abe38deb"
     ]
   ]
 ]

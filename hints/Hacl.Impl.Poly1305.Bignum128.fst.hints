@@ -88,7 +88,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "e75aea3743f1c5d6c3422258959229a6"
+      "c6fa7b3b3f7ded2f0e00a340a0401a4c"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.uints64_to_bytes_le",
@@ -134,7 +134,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "03b2ab63f3771466f3c300023542c670"
+      "40be7b7b14f21dca2e414fd8cbff70cc"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.uints64_to_bytes_le",
@@ -234,7 +234,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "984914cbaed36e02a27f5a0168ad603d"
+      "6467e4c78c4ac9b03a42bb9150871f95"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.constant_time_carry_ok",
@@ -286,7 +286,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1ccdb6fd7f519c2b13cd8e82b4b5d39f"
+      "36a27fd9a2550377f1f74f476f3340a4"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.constant_time_carry_ok",
@@ -366,7 +366,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "a73ea0bac416c1146828ec2334c8eaca"
+      "acc2cb5e3b86c4187b96d442f5ae70c5"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.add_mod_small",
@@ -388,7 +388,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "55226c95aaf97da9b71b6660fbdb9476"
+      "869f4719166523974fb182422283addc"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.add_mod_small",
@@ -411,7 +411,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "f444ece3eb2f175b693c64bf233475da"
+      "306db05b1921245152c466e8d627132c"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.mod_add128_lemma",
@@ -463,7 +463,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "43a47bd10fd4ed3f3ed6c7280007c0ba"
+      "af5f37e0c72018369d67e1fd25e1b0dd"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.mod_add128_lemma",
@@ -529,7 +529,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "134922692934144fe161ab5415eb8ceb"
+      "e15018d9b45d4d54c12294d5f161655f"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.mod_add128",
@@ -538,7 +538,7 @@
       0,
       [ "@query" ],
       0,
-      "00ac488f6c60f0a3bef8ea1c98dbf315"
+      "ffdfb0343c6ee5e08621fd05ffb33bdd"
     ],
     [
       "Hacl.Impl.Poly1305.Bignum128.mod_add128",
@@ -590,7 +590,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "8f1f0f5e1babe140777320a989e74e69"
+      "6c4184e3c338cacebd7e775b10ccea07"
     ]
   ]
 ]

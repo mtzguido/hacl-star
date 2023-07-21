@@ -12,7 +12,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "a60ab886392b0c4f8e76f430ae4483c1"
+      "b071f1ded52ce91fab76b2f82576ee08"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.repeat_range_vale",
@@ -26,7 +26,7 @@
         "refinement_interpretation_Tm_refine_6c6633917f79a67f4eaac4ed70320fc6"
       ],
       0,
-      "3f8ae4ff3fd88e6b161b184c623cb338"
+      "8e300d32c189bd26a90c9e942d3f23bc"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.update_multi_opaque_vale",
@@ -40,7 +40,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "5aec207cb954c32958163f85e7bf4d21"
+      "d0547c8b0375eb13eb98eec153ff4809"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.make_ordered_hash",
@@ -54,7 +54,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "ff8a1b4e5961cabe0a72c21785aea2f6"
+      "7963f7bfe492c2ea416e967036744055"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_update_multi_opaque_vale_is_update_multi",
@@ -70,7 +70,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "14abedf1dc5f3fea9609a6eb0d15fbbe"
+      "0541e05f2c2a791c35227a94520a653e"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sha256_sigma0",
@@ -79,7 +79,7 @@
       0,
       [ "@query" ],
       0,
-      "755b2f88484c335435e09f048175fa6b"
+      "a16b819c23fea5962e7086d60a296fa8"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sha256_sigma1",
@@ -88,7 +88,7 @@
       0,
       [ "@query" ],
       0,
-      "1fee0cd08c932d4c82d997547dde4952"
+      "1ba686a40c01720659f1be28ea7cdb8e"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sha256_sigma2",
@@ -102,7 +102,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "6317cfdc73fb599ecd50cd06ce0b7ab5"
+      "580166cfba1bb74cf5dcc4577b71ebd8"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sha256_sigma3",
@@ -116,7 +116,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "8d6f0de77fcdc86fa410c25773519bab"
+      "2ea4eb949adc903e0a55aa0996df1e9e"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.make_seperated_hash",
@@ -130,7 +130,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "52e1be6d57a440b1a1de92afe1eb2cfe"
+      "2cd34f02e0ce4ab671d399b2febedb05"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.make_seperated_hash_quad32",
@@ -144,7 +144,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "e2fd2a561feb3f82253de7c7ee034637"
+      "fc4028ac7cdb781e295db3f2e435f8c7"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_make_seperated_hash",
@@ -158,7 +158,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "8073693f76bfe030f3c8de182280eaaa"
+      "9bd78e433912e22f7ff1721e21e83bea"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_vsel32",
@@ -174,7 +174,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "c7c39b784ff4bd793bc7a2a228ff612a"
+      "da247da2e536d1b1b6685f8b03c7b292"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_eq_maj_xvsel32",
@@ -190,7 +190,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "77e55de02d40916565eb8068edda2e8d"
+      "b6dc8729379f01f5843e36782d34076d"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sigma_0_0_partial",
@@ -202,7 +202,7 @@
         "refinement_interpretation_Tm_refine_564cd3eeace2ffef069dd3080f56392b"
       ],
       0,
-      "a31770a57f9503a1c93be044ed514b37"
+      "0418749484d3ab7e5eb9deb562291daa"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sigma_0_1_partial",
@@ -214,7 +214,7 @@
         "refinement_interpretation_Tm_refine_564cd3eeace2ffef069dd3080f56392b"
       ],
       0,
-      "87186e106dd77826cd379495a14f3d27"
+      "efac2945dd06c326b2f48e407052ffac"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sigma_1_0_partial",
@@ -230,7 +230,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "62cb73c6d6cda1e1e6b964ae8e706485"
+      "3a5b265b262432ac3223ae025d106daa"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_sigma_1_1_partial",
@@ -246,7 +246,7 @@
         "refinement_interpretation_Tm_refine_dbe0a814395dd45197dd2b50fdf08081"
       ],
       0,
-      "f4f01985ac2d451a9b3bf84417377238"
+      "bc2743b5508ec402c24de579aa2a0262"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.k_reqs",
@@ -260,7 +260,7 @@
         "typing_Vale.SHA.PPC64LE.SHA_helpers.k"
       ],
       0,
-      "93ab8704ea0de14cd724b02aa868dac4"
+      "23a3138a5c011dd984ac5c9a46321804"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.quads_to_block_be",
@@ -282,7 +282,7 @@
         "refinement_interpretation_Tm_refine_c365eb902b454950de62fba701d9049d"
       ],
       0,
-      "53927c8c23252d51e8fcf21d9fac1950"
+      "2dc05e62bf75c20a456a9d96f8b960fb"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_quads_to_block_be",
@@ -294,7 +294,7 @@
         "refinement_interpretation_Tm_refine_07420f653b2652e2852306d7d9338f6d"
       ],
       0,
-      "90a92371041ac1b856f4626308a7cf30"
+      "1cc05e7250093bbb238abfca4bd69a2d"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.k_index",
@@ -309,7 +309,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "dab2f8e01b216a25c4c6de8a27d0024a"
+      "011c07756817a315d83e47b2791ecac6"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_shuffle_core_properties",
@@ -329,7 +329,7 @@
         "typing_Vale.SHA.PPC64LE.SHA_helpers.k"
       ],
       0,
-      "042d702d5ce24be57aa64c062cf97929"
+      "d118ae3f1918be40dbc88e7f8ec33fb8"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_ws_opaque",
@@ -345,7 +345,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "da6efca24511efd558435e9097aa5ae9"
+      "0dbd0d2ff86a74ec004bd2c3467f86d2"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.update_multi_quads",
@@ -373,7 +373,7 @@
         "typing_FStar.Seq.Base.length", "well-founded-ordering-on-nat"
       ],
       0,
-      "7282f2596688bfd458d96e27754c26c6"
+      "70543ee717e4cf9b8f4bf53dd678bc34"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_update_multi_quads",
@@ -396,7 +396,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "7a6139621f3d2f21be57425748d473b9"
+      "11e78606aa24b2eb9100ce783bc16bdb"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.le_bytes_to_hash",
@@ -433,7 +433,7 @@
         "typing_Vale.Def.Words.Seq_s.seq_to_seq_four_LE"
       ],
       0,
-      "1b104b03cf1a930df6de1f5f517c111a"
+      "52be0543a40b07cdd9d251c4644b3976"
     ],
     [
       "Vale.SHA.PPC64LE.SHA_helpers.lemma_hash_to_bytes",
@@ -445,7 +445,7 @@
         "refinement_interpretation_Tm_refine_3f8c34e2426fdb9996c80929acbc566d"
       ],
       0,
-      "8971661c2ad340891390aea780ad16d3"
+      "4bab22531478a384108963eec296f022"
     ]
   ]
 ]

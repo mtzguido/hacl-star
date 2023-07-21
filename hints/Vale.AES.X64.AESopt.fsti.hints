@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "502aa898eaada269bcfb207bde6b9ac9"
+      "c6e11cd9976079233f820b084dd3d261"
     ],
     [
       "Vale.AES.X64.AESopt.aes_reqs_offset",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "a14be754d1d0f3fca295b5ea61d590a5"
+      "4f1510a1c233c7b62ba0e42447c2a2e2"
     ],
     [
       "Vale.AES.X64.AESopt.scratch_reqs",
@@ -41,7 +41,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "0a938f52c739ee43f7a727c0f6301eee"
+      "16e2c7ec436088d9915c5111c5545e49"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Load_two_lsb",
@@ -53,7 +53,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "815ad3c6089ebee5d1df8bac24e5f333"
+      "0ab3fd11b0b461472e9af80c0b4984ab"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Load_one_lsb",
@@ -65,7 +65,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "0ae40044be2610bb97b7b7af509eb80e"
+      "e4723085e1047c31512e6991576e7ab8"
     ],
     [
       "Vale.AES.X64.AESopt.va_lemma_Loop6x_final",
@@ -93,7 +93,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "f3d2d793d40c2c34d9bf02a4a03d0819"
+      "8ce6712fa09c2a129280d8ddaf5d8607"
     ],
     [
       "Vale.AES.X64.AESopt.va_wp_Loop6x_final",
@@ -114,7 +114,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "02b7e235f3111bdb6ca94c62d9986423"
+      "7579b9903397108d9c36db69b3c321ce"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Loop6x_final",
@@ -126,7 +126,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "561e6b912d82f1121963a838972c5143"
+      "d23c846ff86d93db189396ec9debe71f"
     ],
     [
       "Vale.AES.X64.AESopt.va_lemma_Loop6x_save_output",
@@ -162,7 +162,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "fe2dcd95b875b912d3c336c1498573e4"
+      "f42fbe0d0ce63fe4b29624ff8f4411c4"
     ],
     [
       "Vale.AES.X64.AESopt.va_wp_Loop6x_save_output",
@@ -207,7 +207,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "235c90adf421c85d2ba7c136a77564a8"
+      "30c3c67efb5f3792752b7aecb2d4672f"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Loop6x_save_output",
@@ -219,7 +219,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "be6914bdcac772b2b5f29f38e90a4b63"
+      "30c5a1109a027acc12458aedaeb1f929"
     ],
     [
       "Vale.AES.X64.AESopt.va_lemma_untransformedoriginal_Loop6x_partial",
@@ -244,7 +244,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "7bba756ad7f1103e5481e7bdc18ba967"
+      "02dedefb0291de413b74e2b3c310991e"
     ],
     [
       "Vale.AES.X64.AESopt.va_lemma_Loop6x_partial",
@@ -269,7 +269,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "0f47c6933cff4cc072bcd5d39c67a612"
+      "521c5dc294a1e1069846bbaf3b0be116"
     ],
     [
       "Vale.AES.X64.AESopt.va_wp_Loop6x_partial",
@@ -290,7 +290,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "fc011b71e29db918443e705a3a37beb3"
+      "4ad02d18b385f64b5d7471c65111df29"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Loop6x_partial",
@@ -303,7 +303,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "b552f955b20f8c04d7fa0152021111b7"
+      "fbb4c6e3e97d3b3cca0a00bf6c88ab12"
     ],
     [
       "Vale.AES.X64.AESopt.va_lemma_Loop6x",
@@ -352,7 +352,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "10b1ecbf0892c79e5ecd244979f36514"
+      "6001fab8ff7e01994fb91db07c4e6ace"
     ],
     [
       "Vale.AES.X64.AESopt.va_wp_Loop6x",
@@ -412,7 +412,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "c3a7a922b4fd8476868d3a12dde3923e"
+      "9a009c113894f9db962a4e7cbbd9fb7e"
     ],
     [
       "Vale.AES.X64.AESopt.va_quick_Loop6x",
@@ -424,7 +424,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "67133683c69dd051307b3b4ff3bca124"
+      "926ec05eb982517f23cc63ffd5dad8c7"
     ]
   ]
 ]
