@@ -189,6 +189,9 @@ let lemma_block (h1:HS.mem) (inp_b:B.buffer UInt8.t) (len:nat) (i:nat) : Lemma
     == {}
     nat_from_bytes_le (slice text (j1 + 8) (j1 + 16));
   };
+  (* Why? *)
+  let xx : int = nat_from_bytes_le (slice (slice text j1 j2) 0 8) + pow2 64 * nat_from_bytes_le (slice (slice text j1 j2) 8 16)  in
+  assert_spinoff (0 <= xx /\ xx < pow2_128);
   calc (==) {
     inp_mem i;
     == {}
