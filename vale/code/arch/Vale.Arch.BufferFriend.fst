@@ -88,10 +88,11 @@ let nat_from_bytes_le_is_four_to_nat b =
   lemma_raw_nat_from_bytes_le_n s; assert (b.[2] == s.[0]); let s = slice s 1 (length s) in
   lemma_raw_nat_from_bytes_le_n s; assert (b.[3] == s.[0]); let s = slice s 1 (length s) in
   lemma_raw_nat_from_bytes_le_0 s;
-  assert_norm (
+  assert (
     BS.nat_from_bytes_le b ==
     Vale.Def.Words.Four_s.four_to_nat 8 (Vale.Def.Words.Four_s.four_map Raw.uint_to_nat (Vale.Def.Words.Seq_s.seq_to_four_LE b))
-  )
+  ) by (Tactics.compute());
+  ()
 
 let nat_from_bytes_le_is_le_bytes_to_nat32 b =
   let open Vale.Def.Words.Seq_s in
