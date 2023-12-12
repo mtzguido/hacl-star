@@ -14,7 +14,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "e85de3f0f395e756bd8b827400447cce"
+      "594fd63be81bc71240bf12002ebaaf4e"
     ],
     [
       "Spec.Curve25519.Test.scalar2",
@@ -29,7 +29,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "756d8b67cc0f66e7e215f781307c2d03"
+      "5e2f827f5a4b2105a6fdb9357cf8e00b"
     ],
     [
       "Spec.Curve25519.Test.point1",
@@ -44,7 +44,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "b648958f6e55cc5412ee0caee9d66d8c"
+      "983891cf3de8e7ac51f4e3798810da87"
     ],
     [
       "Spec.Curve25519.Test.point2",
@@ -59,7 +59,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "f00be9f29cfd08361a5c660f0e44a366"
+      "116e7df33bc7baf292bb541302588199"
     ],
     [
       "Spec.Curve25519.Test.expected1",
@@ -74,7 +74,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "2752fd712b99ccffaf5686ff36c68fc2"
+      "a2c35a25eeadb05158d036e5e478a9a2"
     ],
     [
       "Spec.Curve25519.Test.expected2",
@@ -89,7 +89,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "5f1dd518f2536bc94215b1fe8aad6047"
+      "5f079fc9f80299261ee421fe7eadcb09"
     ],
     [
       "Spec.Curve25519.Test.test_scalarmult",
@@ -104,7 +104,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "5a8e34d0e537491360c5b229e96e3302"
+      "5048ff6c8ceec3fcc5b1e745339cf66e"
     ],
     [
       "Spec.Curve25519.Test.test_scalarmult",
@@ -119,7 +119,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "8f0ba37e778d565fd120741e3b093ffe"
+      "e86459b3bc4b3ed537c1d239feeefa03"
     ],
     [
       "Spec.Curve25519.Test.test_scalarmult",
@@ -129,16 +129,12 @@
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "equation_Lib.IntTypes.uint8", "equation_Lib.Sequence.lseq",
-        "equation_Lib.Sequence.seq",
-        "function_token_typing_Lib.IntTypes.uint8",
-        "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Subtraction",
-        "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
-        "typing_FStar.Seq.Base.length"
+        "equation_Prims.nat", "int_typing", "lemma_FStar.UInt.pow2_values",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "f927ccb88e679be2e638be54a45cd31a"
+      "99fd1a650907214823567834d157be46"
     ]
   ]
 ]

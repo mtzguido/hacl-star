@@ -88,7 +88,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "76ffd03feb3430a1984ba8c6c59769e0"
+      "5703de1271a4e7ef280f5f46b9bc22ff"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.gte_q",
@@ -190,7 +190,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "98a30e91a5cefec69d7b91178f475319"
+      "8608c6122bed610f44aa1783ec43ca89"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.mul_modp_sqrt_m1",
@@ -383,7 +383,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "5773cfdcfb291acf648874865e5114aa"
+      "b23302d0beb93403e521746bb64708bb"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.x_mod_2",
@@ -466,7 +466,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "0348487fc838872ced42011f4bf3b3d7"
+      "dd26fd4c4f83e1ec9aa892ea1be5a517"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_1",
@@ -667,7 +667,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ebed4f92b7ee299221fe0ad890202565"
+      "1a9dea9111e61abf0d3a97069c15a582"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_2",
@@ -695,7 +695,7 @@
         "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "64d38cdba37cf94b26848b919e941c0f"
+      "a95e46d74f04bf6ca67701eca7fcae9c"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_2",
@@ -769,7 +769,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "3b5cc9c51e1e705ca75aa20ae9f658d9"
+      "7b7e96b953d0ce1af3040303f4dfc517"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_3",
@@ -821,7 +821,7 @@
         "typing_Spec.Curve25519.prime", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "a1b40885648f75dab1219e7108d9a32a"
+      "6712b281b02441b0472903528455743e"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_3",
@@ -934,7 +934,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ada08a8c7de47390134fa6162cba3fff"
+      "d9d6002071221c9ab3b4737f259ad856"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_4",
@@ -984,7 +984,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "5a3d2ed9f67c6b754e4196b1362fc9f7"
+      "b5d4ca6bcacd03c0d9fe9d6f4b914425"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_4",
@@ -1083,7 +1083,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "e55ddec11be2663e94eedff283261f75"
+      "fa0f8427d5cc112e948745dee24a4543"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_5",
@@ -1156,7 +1156,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "453e08df769ebf436b6532f3a8d3b78f"
+      "43a748d413146786ac9548e1bcb13f9a"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_step_5",
@@ -1283,7 +1283,7 @@
         "typing_Spec.Curve25519.prime", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "de84b626fac2e9fe85327e35ddfe3923"
+      "ae65b226644e83d8a7b9276d0136906d"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_",
@@ -1311,7 +1311,7 @@
         "typing_FStar.Monotonic.HyperStack.get_hmap"
       ],
       0,
-      "bb058a66624069cb357f43a1f3ca6112"
+      "fdd8925e18a3c0ad23ad010ca87d77f1"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x_",
@@ -1461,7 +1461,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "62fb4412a3978e8d67eda840ce611393"
+      "1a2a0abce6266145f7852cbbe05d960e"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x",
@@ -1489,7 +1489,7 @@
         "typing_FStar.Monotonic.HyperStack.get_hmap"
       ],
       0,
-      "cb6aaa3b601229ddabb76f00a88b6853"
+      "d53f1491e35452b8fb58d8bec700d210"
     ],
     [
       "Hacl.Impl.Ed25519.RecoverX.recover_x",
@@ -1655,7 +1655,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "7dc9127d5ad104a5da5f896adfd7ecfe"
+      "10cb34f2a2170816c51b4c0d8b0d65f0"
     ]
   ]
 ]

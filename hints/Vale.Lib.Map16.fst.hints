@@ -8,7 +8,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "4f8e2ade31d725b6cfa293b4ad876421"
+      "411e613624650f151ccfe5db254f4ff4"
     ],
     [
       "Vale.Lib.Map16.sel4",
@@ -17,7 +17,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "1c52e476b824e44a382e3b59f8a3288a"
+      "1eb24c0b13e9523ebe29b2cd08341d25"
     ],
     [
       "Vale.Lib.Map16.sel8",
@@ -26,7 +26,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "24f4ef435a4016ec9ee20056d5310109"
+      "c31089d6bad4906ae96a23220b2b3993"
     ],
     [
       "Vale.Lib.Map16.sel16",
@@ -35,7 +35,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "4f1bd726a6c9914b466f60b124ba9ce2"
+      "2b283319ec5399522978a2d2d2e86979"
     ],
     [
       "Vale.Lib.Map16.upd2",
@@ -44,7 +44,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "5c7574ae422fe5443cd17142cdbf6986"
+      "ec34e6355ab3f306de0998a7270f472b"
     ],
     [
       "Vale.Lib.Map16.upd4",
@@ -53,7 +53,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "8b17915926772a7cda3fc0447d3192eb"
+      "6a1913a02182ef4a970a270624e3e5dc"
     ],
     [
       "Vale.Lib.Map16.upd8",
@@ -62,7 +62,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "4ac316dbcd561acba1384df875b09566"
+      "9748a828deed3f394dbc5bb08060f2c8"
     ],
     [
       "Vale.Lib.Map16.upd16",
@@ -71,7 +71,7 @@
       0,
       [ "@query", "primitive_Prims.op_LessThan" ],
       0,
-      "75a675315f341434550694be332b6aa3"
+      "c0519e1cbc72542836ada34a300cbd0b"
     ],
     [
       "Vale.Lib.Map16.lemma_self16",
@@ -93,7 +93,7 @@
         "typing_Vale.Lib.Map16.upd16"
       ],
       0,
-      "653741af32a470868e1096ef9a0dc9ca"
+      "a6caef4a2cb900d97d027b13a884e0e3"
     ],
     [
       "Vale.Lib.Map16.lemma_other16",
@@ -114,7 +114,7 @@
         "projection_inverse_FStar.Pervasives.Native.Mktuple2__2"
       ],
       0,
-      "62d666ee57e73d4cd55e87818b37253f"
+      "1cdff1f7614a6a40b7e74c960bc60142"
     ],
     [
       "Vale.Lib.Map16.lemma_equal16",
@@ -134,7 +134,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "fc58a43c363d9a408f78a4719d03ae3f"
+      "e3ae0423b8041bae44b6d28f5b819b07"
     ],
     [
       "Vale.Lib.Map16.lemma_self",
@@ -143,7 +143,7 @@
       0,
       [ "@query" ],
       0,
-      "a7c22d27aac4edb586c7a0ec277d8741"
+      "d07116674c8ec6362c5f863897a6a91b"
     ],
     [
       "Vale.Lib.Map16.lemma_other",
@@ -152,7 +152,7 @@
       0,
       [ "@query" ],
       0,
-      "32cc877572be6509b7c8e331abb72893"
+      "cb1e4c091b46288272eceb6f85d92340"
     ],
     [
       "Vale.Lib.Map16.lemma_equal",
@@ -161,7 +161,7 @@
       0,
       [ "@query" ],
       0,
-      "248d537210a30723cadc4d6caa0c7031"
+      "88092cd2e474831ef92b2d208413c24f"
     ],
     [
       "Vale.Lib.Map16.lemma_eta16",
@@ -173,7 +173,7 @@
         "int_inversion"
       ],
       0,
-      "dda076e606f76a590a3e4fece9e966b3"
+      "5aa6a520651dc6115b59984d6523f3f9"
     ],
     [
       "Vale.Lib.Map16.lemma_eta",
@@ -182,7 +182,7 @@
       0,
       [ "@query" ],
       0,
-      "b186a89682f3b4644e2dbb820d77897d"
+      "c91f4b211a2dbfeb7803affbc5ee7038"
     ],
     [
       "Vale.Lib.Map16.lemma_equal_intro",
@@ -195,7 +195,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple2"
       ],
       0,
-      "2727e43b86b28d174af6912949d24b9d"
+      "ce53d7a74f284469be1daa427277548f"
     ],
     [
       "Vale.Lib.Map16.lemma_equal_elim",
@@ -207,23 +207,11 @@
         "equation_Vale.Lib.Map16.map16"
       ],
       0,
-      "0fd40ce1ccb72fb139e6e2505d1758b4"
+      "a124f31fb48f417aaec9d9cc65fe1576"
     ],
     [
       "Vale.Lib.Map16.init_rec",
       1,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_c1af67c741c70cb7b987763d32838ad5"
-      ],
-      0,
-      "b83a6cca9dd93d8dd26bbae969daacd5"
-    ],
-    [
-      "Vale.Lib.Map16.init_rec",
-      2,
       1,
       0,
       [
@@ -242,7 +230,19 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "d8b43798a03442f1d9650a029a8c22b4"
+      "ab31b362f4baf5276a39eea34335c49b"
+    ],
+    [
+      "Vale.Lib.Map16.init_rec",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_c1af67c741c70cb7b987763d32838ad5"
+      ],
+      0,
+      "7865bb98d9b5aa945940429dc9bcb8ec"
     ],
     [
       "Vale.Lib.Map16.init",
@@ -251,7 +251,7 @@
       0,
       [ "@query" ],
       0,
-      "0856fd521392a960ab3d938889a86519"
+      "30e2b6709e371d2f6fdf650c0060b787"
     ],
     [
       "Vale.Lib.Map16.init",
@@ -264,23 +264,11 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "b9f24b88544dd440ce2ffe58654e612e"
+      "b6fcb29c65c54057e9f9505b095f0f4f"
     ],
     [
       "Vale.Lib.Map16.init_ghost_rec",
       1,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_c1af67c741c70cb7b987763d32838ad5"
-      ],
-      0,
-      "8c64f08e505f7eb7cb9a41cc44b2f342"
-    ],
-    [
-      "Vale.Lib.Map16.init_ghost_rec",
-      2,
       1,
       0,
       [
@@ -299,7 +287,19 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "2e3f31927561da3156d6a5fbefb03290"
+      "9e0aecfbeb13160c71cc1328794cf418"
+    ],
+    [
+      "Vale.Lib.Map16.init_ghost_rec",
+      2,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_c1af67c741c70cb7b987763d32838ad5"
+      ],
+      0,
+      "99dd38bfddd74b66cd0670a19cc9d39d"
     ],
     [
       "Vale.Lib.Map16.init_ghost",
@@ -308,7 +308,7 @@
       0,
       [ "@query" ],
       0,
-      "f7efdd500bb0dd0b7af4b05e6bf87c60"
+      "6f3479f3f121695b8368bfeb2598d505"
     ],
     [
       "Vale.Lib.Map16.init_ghost",
@@ -321,7 +321,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "c69f110b83cc53d33dee73710435cce5"
+      "c51152f8914c7cf03f379e0b0930b482"
     ]
   ]
 ]

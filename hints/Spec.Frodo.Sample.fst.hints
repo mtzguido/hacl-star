@@ -32,7 +32,7 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "24063c96679efb3bf46cf09e168ef5ae"
+      "7e2a94f56812443fbcfd0646eeacc9bf"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_fc",
@@ -65,7 +65,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "cfa618c6c982adc51e247a0605b305c3"
+      "5b9377cc1a8018723e8da68ee82ff84b"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_res",
@@ -109,7 +109,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U16@tok"
       ],
       0,
-      "1a1e0e6704be7401cf53cb3eeda8d205"
+      "214e8a4cdacb1208487e2c430206a36f"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample",
@@ -201,7 +201,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "9edf2a15cad23c2a73c1a49643495b11"
+      "d5822c21f0d7cb9762ce022f7d3bd84f"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix0",
@@ -229,39 +229,11 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "4c7b2d82a9bcd29bed8ba7d39fec50b6"
+      "520f6b2b366a8c4f29ebd3995b9a398e"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix0",
       2,
-      0,
-      0,
-      [
-        "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "constructor_distinct_Lib.IntTypes.U8",
-        "equality_tok_Lib.IntTypes.U1@tok",
-        "equality_tok_Lib.IntTypes.U8@tok", "equation_Lib.IntTypes.minint",
-        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
-        "equation_Spec.AES.gf8", "equation_Spec.AES.irred",
-        "equation_Spec.GaloisField.gf", "int_inversion", "int_typing",
-        "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Multiply",
-        "primitive_Prims.op_Subtraction",
-        "proj_equation_Spec.GaloisField.GF_t",
-        "projection_inverse_BoxInt_proj_0",
-        "projection_inverse_Spec.GaloisField.GF_t",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_67a0bd9d58fa61a6041f1e25192861ac",
-        "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
-        "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
-        "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
-      ],
-      0,
-      "7d7b022d3ab0d4a655a2e95389059ce0"
-    ],
-    [
-      "Spec.Frodo.Sample.frodo_sample_matrix0",
-      3,
       0,
       0,
       [
@@ -293,7 +265,35 @@
         "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "eb738e374b89f92fdd82b02d3b8ad3a0"
+      "773f4319b7af5c8cf00b3577f78f7164"
+    ],
+    [
+      "Spec.Frodo.Sample.frodo_sample_matrix0",
+      3,
+      0,
+      0,
+      [
+        "@MaxFuel_assumption", "@MaxIFuel_assumption",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "constructor_distinct_Lib.IntTypes.U8",
+        "equality_tok_Lib.IntTypes.U1@tok",
+        "equality_tok_Lib.IntTypes.U8@tok", "equation_Lib.IntTypes.minint",
+        "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
+        "equation_Spec.AES.gf8", "equation_Spec.AES.irred",
+        "equation_Spec.GaloisField.gf", "int_inversion", "int_typing",
+        "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Multiply",
+        "primitive_Prims.op_Subtraction",
+        "proj_equation_Spec.GaloisField.GF_t",
+        "projection_inverse_BoxInt_proj_0",
+        "projection_inverse_Spec.GaloisField.GF_t",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_67a0bd9d58fa61a6041f1e25192861ac",
+        "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
+        "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
+        "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
+      ],
+      0,
+      "2c756a73d31b6af0c4a9d1691762491d"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix1",
@@ -321,7 +321,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "da1c6c2b6c52a590b55ea9c099fa7250"
+      "b8dde122b5d9232a339d9c1acc45d708"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix1",
@@ -349,7 +349,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "55bdfbbfc333bf928018692c7ca777b5"
+      "40910cd3814fad0750b7ca7f12086b21"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix1",
@@ -364,7 +364,7 @@
         "equality_tok_Lib.IntTypes.U8@tok", "equation_Lib.IntTypes.minint",
         "equation_Lib.IntTypes.unsigned", "equation_Prims.nat",
         "equation_Spec.AES.gf8", "equation_Spec.AES.irred",
-        "equation_Spec.GaloisField.gf", "int_typing",
+        "equation_Spec.GaloisField.gf", "int_inversion", "int_typing",
         "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Multiply",
         "primitive_Prims.op_Subtraction",
         "proj_equation_Spec.GaloisField.GF_t",
@@ -372,11 +372,12 @@
         "projection_inverse_Spec.GaloisField.GF_t",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_67a0bd9d58fa61a6041f1e25192861ac",
+        "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "6d5af8c32701095421fc802863cc1b92"
+      "7625e9f0676ad41fd81bde6675a813b4"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix",
@@ -404,7 +405,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "03982dc78b59c7e248b44d449f1dc32b"
+      "8c1a28212d2bd8ebf90cc59ed5892c57"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix",
@@ -419,7 +420,7 @@
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4"
       ],
       0,
-      "deaf46058d986ae67412ae8a4367145e"
+      "74a412c36beaade763405e0bfbe41831"
     ],
     [
       "Spec.Frodo.Sample.frodo_sample_matrix",
@@ -447,7 +448,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "5d14eae76998d083766110f5e7d1da30"
+      "25c4cd2c2da6b0881dde6bb6ee0f6839"
     ]
   ]
 ]

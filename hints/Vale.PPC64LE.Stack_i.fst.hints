@@ -65,7 +65,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack64"
       ],
       0,
-      "2a6ff55cbd49af7b63e24b18465e3607"
+      "281f706c4d48ec06c7110f06b4914764"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_free_stack_same_valid64",
@@ -99,7 +99,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack64"
       ],
       0,
-      "fd6ecdca274f91bbf57457fea96499df"
+      "0d23ff129ec5cd1bde8a057191d316cd"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_store_stack_same_valid128",
@@ -164,7 +164,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack128"
       ],
       0,
-      "d1b32aa237838111074ee6d8e3afd220"
+      "25dbf0e18de340875e3213acb0106bc6"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_free_stack_same_valid128",
@@ -198,7 +198,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack128"
       ],
       0,
-      "b29b977c56c5897b00a1e344b0d080a9"
+      "d03c8bbb411117e185fe823c13ccb1f9"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_store_new_valid64",
@@ -266,7 +266,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack64"
       ],
       0,
-      "a9c1aa10972106851fdf2e6e2c04a064"
+      "1a0151ec720095c589afce9cb171441e"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_store_new_valid128",
@@ -330,7 +330,7 @@
         "typing_Vale.Def.Words_s.__proj__Mkfour__item__lo1"
       ],
       0,
-      "cc387b7551ac234e4f02670bdfd034ac"
+      "b779064c44a89882c1d6e5b74aed174f"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_correct_store_load_stack64",
@@ -344,7 +344,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_stack_mem"
       ],
       0,
-      "9106bb9a6c0defaf0a9e3d99e0583c65"
+      "d97c9ff43c50a70424d3cd65f63590d6"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_stack64",
@@ -363,7 +363,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val64_def"
       ],
       0,
-      "0dd463e24021d3a9679b90fe2091214b"
+      "56b9a8ccc8d4eb0abd4276b8a25504ad"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_free_stack_same_load64",
@@ -401,7 +401,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack64"
       ],
       0,
-      "cf444d6cad4af7dc92e6b42f5e4073a9"
+      "c19723bf191f5c9c4921c465a4f0c1b0"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_correct_store_load_stack128",
@@ -415,7 +415,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_stack_mem"
       ],
       0,
-      "7a38252e39d0d93fe6e7007846680335"
+      "ccf389b9ee38db71213bdb686c0581a2"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_stack128",
@@ -437,7 +437,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val32_def"
       ],
       0,
-      "f9830112d4a2d0befc0ffe6e0295c612"
+      "201450af2aaf749415d4813478e4cb2f"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_free_stack_same_load128",
@@ -478,7 +478,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack128"
       ],
       0,
-      "7b6065b23d826b3a8c1fee749a38e118"
+      "084ceb6512256102383d54410007fb94"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_compose_free_stack64",
@@ -509,7 +509,7 @@
         "typing_FStar.Map.restrict", "typing_Vale.Lib.Set.remove_between"
       ],
       0,
-      "f140be7f5a24799c8892ae464d3aeda6"
+      "53f1095aaa4e7499a85c90375ad04a8a"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_free_stack64",
@@ -518,7 +518,7 @@
       0,
       [ "@query" ],
       0,
-      "2d1cb2d41412effd326a6630b9bf365d"
+      "92f7c9387ab4ce50a36f2e51cd0a55d3"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_free_stack64",
@@ -537,7 +537,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_initial_r1"
       ],
       0,
-      "586003e3996844f0707be3ef2cf93dd0"
+      "99895cd18fa4632046ee6374f165ff62"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_store_stack64",
@@ -546,7 +546,7 @@
       0,
       [ "@query" ],
       0,
-      "16e4ce8964d41eb710cf47b3e6d7791d"
+      "2c2c7d80774e2ff4fc23684c701f1ca2"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_store_stack64",
@@ -563,7 +563,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_initial_r1"
       ],
       0,
-      "3fe9721d8837ad03008edb4c580a3e67"
+      "b02176740a13365d080c8e8d086c6c41"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_free_stack128",
@@ -572,7 +572,7 @@
       0,
       [ "@query" ],
       0,
-      "9316ef9b39541f22651fceb714934d04"
+      "c9f9009fada64d3a954b311280bd7267"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_free_stack128",
@@ -591,7 +591,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_initial_r1"
       ],
       0,
-      "45fe3a90a483fd1414ed18f18bfe178b"
+      "21960e1ba590ba6309df09aa2b6dc0af"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_store_stack128",
@@ -600,7 +600,7 @@
       0,
       [ "@query" ],
       0,
-      "b7356838d6edac8d6d0c5d636fac20a2"
+      "b364c91c323da1ab6c5005a28187ffce"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_same_init_r1_store_stack128",
@@ -617,7 +617,7 @@
         "projection_inverse_Vale.PPC64LE.Machine_s.Machine_stack_initial_r1"
       ],
       0,
-      "66e9eb7e5cbca2a6f49f64276fe571d3"
+      "2af1b535a61b0314263a73772f687cd6"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_valid_taint_stack64",
@@ -631,7 +631,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "3e27ba5ffbafaf466fa312b1281c2508"
+      "85cbca894b93e942bb06a40fd2da22db"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_valid_taint_stack128",
@@ -645,7 +645,7 @@
         "primitive_Prims.op_Equality", "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "c704e529e12533fd13875e48b7aac23f"
+      "11eb1653cbaa906e6043a3d5a85a894d"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_valid_taint_stack64_reveal",
@@ -663,7 +663,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "1cadd60bb5adce6ff41026289d4eb03b"
+      "865b8ee0cb0607d859b4af59e40bdd4d"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_correct_store_load_taint_stack64",
@@ -691,7 +691,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "df47b235a70245df6d62178282efe686"
+      "163bfb27d05cbde13c747eef00cae5d2"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_taint_stack64",
@@ -717,7 +717,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "c7bc8278ef9df996e35fbdb469c6669c"
+      "589609f121732c01e6a1c040507a6655"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_valid_taint_stack128_reveal",
@@ -735,7 +735,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "cf4da54e88c8a5e63520e3ca1ea73f42"
+      "471f6100a9f0bf4f3f12634e0678e0ee"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_correct_store_load_taint_stack128",
@@ -763,7 +763,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "fe14dddeb3f25aaea214e7267caee47d"
+      "f73cbd50edafc747483ad304d13e909e"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_taint_stack128",
@@ -789,7 +789,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "cb9bae6b73e4c559807ef1b07400b929"
+      "0fe7655f7945989b7baecc31d019e9ab"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_store_stack_same_valid64_128",
@@ -854,7 +854,7 @@
         "typing_Vale.PPC64LE.Stack_i.valid_src_stack64"
       ],
       0,
-      "0a03841d3f03c0dc87cafa05d36b7984"
+      "08c5a04b2b46c699b35144afd0e52de8"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_stack64_128",
@@ -873,7 +873,7 @@
         "token_correspondence_Vale.Arch.MachineHeap_s.get_heap_val64_def"
       ],
       0,
-      "7d5e7b3ca3488523364854f04c46b4ea"
+      "37add8cb1848c9b8f1fafeafde83a806"
     ],
     [
       "Vale.PPC64LE.Stack_i.lemma_frame_store_load_taint_stack64_128",
@@ -899,7 +899,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.Public@tok"
       ],
       0,
-      "84643bb64d1b11be7db94887b5a3a8a5"
+      "8fed7378249ecb1e619ef353b4c4c682"
     ]
   ]
 ]

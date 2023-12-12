@@ -22,7 +22,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "6d66e88c7747a1f51d36088d58cabb80"
+      "79ca67bcc137eb36437f52555daf2490"
     ],
     [
       "Hacl.GenericField32.field_init",
@@ -37,7 +37,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "ca0223b92b5751aca14129f100e79f1b"
+      "0fa0a45e5df0385afa171ae6381c4885"
     ],
     [
       "Hacl.GenericField32.to_field",
@@ -62,7 +62,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "ab7159472afd197164ac70525ef94972"
+      "d6ea1c793678995d4214038eee78886b"
     ],
     [
       "Hacl.GenericField32.from_field",
@@ -87,7 +87,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "71d928df53a255ac06814163e63bfbbd"
+      "d33d93f05b92ae2775711570d3d7fa18"
     ],
     [
       "Hacl.GenericField32.add",
@@ -112,7 +112,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "1a829eb1ba0cb0695bbd19d9019c79a4"
+      "aa7f4cac438a232f08afa486d5ad65fc"
     ],
     [
       "Hacl.GenericField32.sub",
@@ -137,7 +137,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "7a246c5b88e658cbb669c2c9a919197e"
+      "1f851d8746b58cb72c7174d505ec107c"
     ],
     [
       "Hacl.GenericField32.mul",
@@ -162,7 +162,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "c6e54dd8968d15916acf679f4870f5e3"
+      "52079775cd1856edb997fb7438c94312"
     ],
     [
       "Hacl.GenericField32.sqr",
@@ -187,7 +187,7 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "654ff6c0e9f0592141e904ba8b9707ec"
+      "3a15b96795ea9728279a613261b972f0"
     ],
     [
       "Hacl.GenericField32.one",
@@ -212,36 +212,11 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "9dece0060e452e3627348cb21245bd12"
+      "6ca36ab3b63e9a7f14ed6ab9623f8678"
     ],
     [
       "Hacl.GenericField32.exp_consttime",
       1,
-      0,
-      0,
-      [
-        "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
-        "constructor_distinct_Lib.IntTypes.U32",
-        "equality_tok_Lib.IntTypes.PUB@tok",
-        "equality_tok_Lib.IntTypes.U32@tok",
-        "equation_Hacl.GenericField32.t_limbs", "equation_Lib.IntTypes.bits",
-        "equation_Lib.IntTypes.maxint", "equation_Lib.IntTypes.minint",
-        "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.unsigned",
-        "equation_Prims.nat", "int_typing", "lemma_FStar.UInt.pow2_values",
-        "lemma_Lib.IntTypes.v_mk_int", "primitive_Prims.op_Subtraction",
-        "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
-        "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.PUB@tok",
-        "typing_tok_Lib.IntTypes.U32@tok"
-      ],
-      0,
-      "93f68852aa02ca96de125f038ef4a7af"
-    ],
-    [
-      "Hacl.GenericField32.exp_consttime",
-      2,
       0,
       0,
       [
@@ -262,11 +237,11 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "6cacc17d72feb946b6b4acc42411255f"
+      "f7ebed9dcd15ea72b23e589eaf0fb048"
     ],
     [
-      "Hacl.GenericField32.exp_vartime",
-      1,
+      "Hacl.GenericField32.exp_consttime",
+      2,
       0,
       0,
       [
@@ -287,11 +262,11 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "bda03e48e14acb2dffe5d2c729d18cbb"
+      "3d23dd733bd27ab3369f669cc121dc5b"
     ],
     [
       "Hacl.GenericField32.exp_vartime",
-      2,
+      1,
       0,
       0,
       [
@@ -312,7 +287,32 @@
         "typing_Hacl.GenericField32.t_limbs"
       ],
       0,
-      "8ab01c5f5c21c82df5d4dbdac7fbe3ff"
+      "5d9a8b70f0d16705ac14942536d931f5"
+    ],
+    [
+      "Hacl.GenericField32.exp_vartime",
+      2,
+      0,
+      0,
+      [
+        "@MaxFuel_assumption", "@MaxIFuel_assumption",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "constructor_distinct_Lib.IntTypes.U32",
+        "equality_tok_Lib.IntTypes.PUB@tok",
+        "equality_tok_Lib.IntTypes.U32@tok",
+        "equation_Hacl.GenericField32.t_limbs", "equation_Lib.IntTypes.bits",
+        "equation_Lib.IntTypes.maxint", "equation_Lib.IntTypes.minint",
+        "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.unsigned",
+        "equation_Prims.nat", "int_typing", "lemma_FStar.UInt.pow2_values",
+        "lemma_Lib.IntTypes.v_mk_int", "primitive_Prims.op_Subtraction",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
+        "typing_Lib.IntTypes.bits", "typing_tok_Lib.IntTypes.PUB@tok",
+        "typing_tok_Lib.IntTypes.U32@tok"
+      ],
+      0,
+      "3d23dd733bd27ab3369f669cc121dc5b"
     ]
   ]
 ]

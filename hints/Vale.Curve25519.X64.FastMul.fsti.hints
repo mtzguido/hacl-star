@@ -12,7 +12,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "874cb1cb3dba331026357b383f600b5e"
+      "871867c243b68ec36d12d6d81493abfd"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_wp_Fast_multiply",
@@ -25,7 +25,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "64f25ad9190bf1a0642f2265d9a5e9ce"
+      "040164ff2489ab5f601673b68a2b7390"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_quick_Fast_multiply",
@@ -37,7 +37,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "a86d6f76813aa1827d5505a038aae8c2"
+      "05aaf69336560ae90ad5afefad21fac9"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_lemma_Fast_mul_stdcall",
@@ -60,7 +60,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "97b4ca1928f26b29480de8b0bb22acb8"
+      "4e91a2ef8da1dff403e6eb47b8dd3dd6"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_wp_Fast_mul_stdcall",
@@ -75,7 +75,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "559ee3ea754ec4eea35f0b6aee06c666"
+      "d7442a9012d49f59db17ee8e4f4c97ca"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_quick_Fast_mul_stdcall",
@@ -87,7 +87,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "72ffa4276400dc8abb0d3d17ef9e1c0f"
+      "c126a3e5a71df685e853e1e9e1a9b662"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_lemma_Fast_mul2_stdcall",
@@ -106,7 +106,7 @@
         "refinement_interpretation_Tm_refine_12858e97eec0ea4a967ef81772c81ae1"
       ],
       0,
-      "1f8dbc2ce74cefbacc1ce623c9b7f729"
+      "249339e43e384d5b64c0021a6b351da7"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_wp_Fast_mul2_stdcall",
@@ -115,7 +115,7 @@
       0,
       [ "@query" ],
       0,
-      "ac71381610e5333097af938ab5e4c8ba"
+      "1fc739b3f025f97fbb59436328f05f5c"
     ],
     [
       "Vale.Curve25519.X64.FastMul.va_quick_Fast_mul2_stdcall",
@@ -127,7 +127,7 @@
         "fuel_guarded_inversion_FStar.Pervasives.Native.tuple3"
       ],
       0,
-      "70845a38e1ceb678391e96cd1321b0db"
+      "9106d27bd4c82d1a168d988d7bc5c95d"
     ]
   ]
 ]

@@ -15,7 +15,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "3c3c01ec31523292dae613ad0f60f181"
+      "df079f2759e273c137d3b04c2e6f2ebd"
     ],
     [
       "Vale.Poly1305.Util.poly1305_heap_blocks",
@@ -29,7 +29,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "ebeef66d0aa6dcc6c848d7a25f1c7eea"
+      "0a225592afb50bbef747884a3ce8fa61"
     ],
     [
       "Vale.Poly1305.Util.reveal_poly1305_heap_blocks",
@@ -41,7 +41,7 @@
         "refinement_interpretation_Tm_refine_fb3464c50b11286bf3d005bb98019ff2"
       ],
       0,
-      "c7de88cdc85527449cbf3eab29cdbbc0"
+      "a6b1762a0055c152d91ca282fa59f787"
     ],
     [
       "Vale.Poly1305.Util.reveal_poly1305_heap_blocks",
@@ -59,7 +59,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "fdbe0a7f31d019a9f4478765a8031adb"
+      "61898941877d47db88d71644b38fe4d4"
     ],
     [
       "Vale.Poly1305.Util.seqTo128",
@@ -77,7 +77,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "b7a8afaf6bc782dcc2a51d73c6647952"
+      "20d9707a462f0bd2ce45178e63a34b15"
     ],
     [
       "Vale.Poly1305.Util.lemma_poly1305_heap_hash_blocks_alt",
@@ -89,23 +89,11 @@
         "refinement_interpretation_Tm_refine_05b557f3c96188b8f09f5b49a60f5c44"
       ],
       0,
-      "be69d2b3126230b6f470b53988e01e72"
+      "cb11ec51ff275b87f4f2202c8e1740ae"
     ],
     [
       "Vale.Poly1305.Util.lemma_poly1305_heap_hash_blocks_alt",
       2,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query",
-        "refinement_interpretation_Tm_refine_05b557f3c96188b8f09f5b49a60f5c44"
-      ],
-      0,
-      "176f1cb014f8066139ce49b8767877cd"
-    ],
-    [
-      "Vale.Poly1305.Util.lemma_poly1305_heap_hash_blocks_alt",
-      3,
       1,
       0,
       [
@@ -144,7 +132,19 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "0a9ca1684504a3d61bd953c0e37a85e2"
+      "02b77cef9007ed4980e964c3aa9c1129"
+    ],
+    [
+      "Vale.Poly1305.Util.lemma_poly1305_heap_hash_blocks_alt",
+      3,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query",
+        "refinement_interpretation_Tm_refine_05b557f3c96188b8f09f5b49a60f5c44"
+      ],
+      0,
+      "c61c3527ddb97f7259005b782b023cb1"
     ],
     [
       "Vale.Poly1305.Util.buffers_readable",
@@ -159,7 +159,7 @@
         "fuel_guarded_inversion_Prims.list", "subterm_ordering_Prims.Cons"
       ],
       0,
-      "0955596f7684edba14d5d80e37b501e2"
+      "6c3cbf53ab3d0b45729e9ada9ed710d8"
     ],
     [
       "Vale.Poly1305.Util.lemma_equal_blocks",
@@ -188,7 +188,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "ec5fa6ab502b1c4120f41263a443196e"
+      "46d9b16e818349919dbd4e6a8ae647fd"
     ],
     [
       "Vale.Poly1305.Util.lemma_append_blocks",
@@ -201,25 +201,11 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "eaa30a3490a432263748633bb19cd5ee"
+      "6deb135b00b952084f3341d6049ed8b6"
     ],
     [
       "Vale.Poly1305.Util.lemma_append_blocks",
       2,
-      1,
-      0,
-      [
-        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
-        "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_df84782a290cc4cb331b15053eeeadbd"
-      ],
-      0,
-      "0eb7e659f7554ff2b61e777a96b4b804"
-    ],
-    [
-      "Vale.Poly1305.Util.lemma_append_blocks",
-      3,
       1,
       0,
       [
@@ -247,7 +233,21 @@
         "unit_typing", "well-founded-ordering-on-nat"
       ],
       0,
-      "8b77c645b5b722aba3e7d204aaef4619"
+      "c0710b6b811c903c19329bf70191e75b"
+    ],
+    [
+      "Vale.Poly1305.Util.lemma_append_blocks",
+      3,
+      1,
+      0,
+      [
+        "@MaxIFuel_assumption", "@query", "equation_Prims.nat",
+        "projection_inverse_BoxInt_proj_0",
+        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_d74c02440439b71e0db8cf9feae0d8ba"
+      ],
+      0,
+      "ea75f365e6248d1063c122ce33981bbd"
     ]
   ]
 ]
