@@ -189,8 +189,10 @@ val mk_bn_to_bytes_be:
   -> len:size_t{0 < v len /\ numbytes t * v (blocks len (size (numbytes t))) <= max_size_t} ->
   bn_to_bytes_be_st t len
 
-#push-options "--z3rlimit 250 --log_queries --z3refresh"
-#restart-solver
+(* This causes the verification conditition for the continuation
+of the call to this function to be done in a separate Z3 query. *)
+let break () : STATE unit (fun p h -> spinoff (squash (p () h))) = ()
+
 let mk_bn_to_bytes_be #t is_known_len len b res =
   push_frame ();
   if is_known_len then begin
@@ -202,6 +204,7 @@ let mk_bn_to_bytes_be #t is_known_len len b res =
       LowStar.Ignore.ignore tmp;
       bn_to_bytes_be_ bnLen b res end
     else begin
+      break();
       bn_to_bytes_be_ bnLen b tmp;
       copy res (sub tmp (tmpLen -! len) len) end end
   else begin
@@ -212,7 +215,6 @@ let mk_bn_to_bytes_be #t is_known_len len b res =
     bn_to_bytes_be_ bnLen b tmp;
     copy res (sub tmp (tmpLen -! len) len) end;
   pop_frame ()
-#pop-options
 
 [@CInline]
 let bn_to_bytes_be_uint32 len : bn_to_bytes_be_st U32 len = mk_bn_to_bytes_be #U32 false len

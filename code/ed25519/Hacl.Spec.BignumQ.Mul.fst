@@ -352,9 +352,9 @@ let lemma_mult_distr_3 (a b c:nat) (n:nat) : Lemma
     Math.Lemmas.distributivity_add_left a b (pow2 n);
     Math.Lemmas.pow2_plus 56 n
 
+open FStar.Pure.Break
 
-#set-options "--z3rlimit 300"
-
+(* This lemma is slow, takes over 20 minutes *)
 let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
   let xy00 = mul64_wide_5 x0 y0 in
   let xy01 = mul64_wide_5 x0 y1 in
@@ -405,27 +405,30 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
   let (c7, t7) = carry56_wide (add_inner_carry z7 c6) in
   let (c8, t8) = carry56_wide (add_inner_carry z8 c7) in
   let t9 = to_u64 c8 in
+  break();
   let lemma_t9_fits () : Lemma (v t9 < pow2 56)
     = // This proof was built from the bottom. We have as a constraint that v c8 has to be < pow2 112 to satisfy the postcondition.
       // We compute each time the maximal value such that this postcondition is satisfied
-
       calc (<) {
         v c0;
         (<) { Math.Lemmas.lemma_div_lt_nat (v z0) 112 56 }
         pow2 56;
       };
+      break();
       calc (<) {
         v c1;
         (<) { assert_norm (2*(pow2 112 - pow2 57 + 1) + pow2 56 <= pow2 113);
           Math.Lemmas.lemma_div_lt_nat (v z1 + v c0) 113 56 }
         pow2 57;
       };
+      break();
       calc (<) {
         v c2;
         (<) { assert_norm (3*(pow2 112 - pow2 57 + 1) + pow2 57 <= pow2 114);
           Math.Lemmas.lemma_div_lt_nat (v z2 + v c1) 114 56 }
         pow2 58;
       };
+      break();
       calc (<=) {
         v c3;
         (<=) { assert_norm (4*(pow2 112 - pow2 57 + 1) + pow2 58 <= 31153781151208965410895007785680895);
@@ -433,6 +436,7 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
           Math.Lemmas.lemma_div_le (v z3 + v c2) 31153781151208965410895007785680895 (pow2 56) }
         432345564227567610;
       };
+      break();
       calc (<=) {
         v c4;
         (<=) { assert_norm (5*(pow2 112 - pow2 57 + 1) + 432345564227567610 <= 25961484292674137854422105494388735); // (pow2 59 - 2) * pow56
@@ -440,6 +444,7 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
           Math.Lemmas.lemma_div_le (v z4 + v c3) 25961484292674137854422105494388735 (pow2 56) }
         360287970189639675;
       };
+      break();
       calc (<=) {
         v c5;
         (<=) { assert_norm (4*(pow2 112 - pow2 57 + 1) + 360287970189639675 <= 20769187434139310297949203203096575);
@@ -447,7 +452,6 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
           assert_norm (20769187434139310297949203203096575 / pow2 56 == pow2 58 - 4) }
         pow2 58 - 4;
       };
-
       calc (<=) {
         v c6;
         (<=) { assert_norm (3*(pow2 112 - pow2 57 + 1) + pow2 58 - 4 <= 15576890575604482741476300911804415);
@@ -455,6 +459,7 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
           assert_norm (15576890575604482741476300911804415 / pow2 56 == 216172782113783805) }
         216172782113783805;
       };
+      break();
       calc (<=) {
         v c7;
         (<=) { assert_norm (2*(pow2 112 - pow2 57 + 1) + 216172782113783805 <= 10384593717069655185003398620512255); // (pow2 57 - 1) * pow2 56 - 1
@@ -462,15 +467,18 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
           assert_norm (10384593717069655185003398620512255 / pow2 56 == pow2 57 - 2) }
         pow2 57 - 2;
       };
+      break();
       calc (<) {
         v c8;
         (<) { Math.Lemmas.lemma_div_lt_nat (v z8 + v c7) 112 56 }
         pow2 56;
       };
+      break();
       assert_norm (pow2 56 < pow2 64);
       Math.Lemmas.small_mod (v c8) (pow2 64)
   in
 
+  break();
   lemma_t9_fits();
 
   calc (==) {
@@ -564,6 +572,8 @@ let mul_5 (x0, x1, x2, x3, x4) (y0, y1, y2, y3, y4) =
     (v x0 + v x1 * pow2 56 + v x2 * pow2 112 + v x3 * pow2 168 + v x4 * pow2 224) *
     (v y0 + v y1 * pow2 56 + v y2 * pow2 112 + v y3 * pow2 168 + v y4 * pow2 224);
   };
+
+  break();
 
   (t0, t1, t2, t3, t4, t5, t6, t7, t8, t9)
 

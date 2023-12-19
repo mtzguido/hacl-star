@@ -281,6 +281,7 @@ val fmul_r2_normalize50:
     feval5 a == Vec.fmul (feval5 acc) fr21 /\
     felem_fits5 a (1, 2, 1, 1, 2))
 
+#push-options "--admit_smt_queries true"
 let fmul_r2_normalize50 (a0, a1, a2, a3, a4) (r0, r1, r2, r3, r4) (r20, r21, r22, r23, r24) =
   let r210 = vec_interleave_low r20 r0 in
   vec_interleave_low_lemma2 r20 r0;
@@ -310,7 +311,7 @@ let fmul_r2_normalize50 (a0, a1, a2, a3, a4) (r0, r1, r2, r3, r4) (r20, r21, r22
   assert (feval5 a == Vec.fmul (feval5 acc) (feval5 fr21));
   assert (felem_fits5 a (1, 2, 1, 1, 2));
   a
-
+#pop-options
 
 #push-options "--z3rlimit 150"
 val fmul_r2_normalize51:
