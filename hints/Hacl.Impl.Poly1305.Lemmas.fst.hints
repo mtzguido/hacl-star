@@ -35,7 +35,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "a1aaa72b78269fc49e139fea77f90aaa"
+      "13e1313c230eda8e37f3c7fc0b75fb97"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uint_from_bytes_le_lemma",
@@ -84,7 +84,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1251a68a2be715dae89cb75099736fff"
+      "83b2b3babd4ba0dc8bb597df013f693e"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uint_from_bytes_le_lemma",
@@ -144,7 +144,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "8437fabe679a7baaa63b6803c27e022d"
+      "33f562af794ef9bd013077bd28dfce12"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_1",
@@ -182,7 +182,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "aa21c23df779b9b9f4b96c87822ee1e0"
+      "5afc4877117e759c77e255d2569253ed"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_1",
@@ -239,7 +239,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "9750c386b03614a7dfe0ffe5bbf43d88"
+      "531fa4c251221194a3955962db024758"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_1",
@@ -296,7 +296,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "2eb6e0852b4d44638b5d6d29e1a86654"
+      "c607bf9c74e422f53ba4ae6721dad9ee"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_2",
@@ -339,7 +339,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "c18b68a07a2b7083941827b76d711991"
+      "c45edcb94b23ecfdd155e965cb8e7ec3"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_2",
@@ -376,7 +376,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "121c998a9703bc8fddccb7cf9978ff23"
+      "05563ff63ab894833df10195be775286"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_2",
@@ -413,7 +413,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7553524277982b9c45b98870719c7190"
+      "6bca0de20c9f1fe3cf19ccb028d118a6"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_4",
@@ -443,7 +443,7 @@
         "typing_Spec.AES.gf8", "typing_Spec.GaloisField.__proj__GF__item__t"
       ],
       0,
-      "ad291fb3a702d688950c1773dea9226b"
+      "0434e25056d8f1ba829828c7c140dafd"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_4",
@@ -502,7 +502,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7d10282c7a29267a5f13496076f2e95d"
+      "e420300baaf5634cfbc40a6f02cc5685"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints_from_bytes_le_lemma64_4",
@@ -561,7 +561,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "3deb635295567aeb58f89126e4aef266"
+      "e89299e7a863467f08e96074da2ae0c8"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints64_to_bytes_le_lemma",
@@ -604,7 +604,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "6fcc647cbb64757c7e0c4ede42fc6781"
+      "abe541f49242d530455386a9ee2647d9"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.uints64_to_bytes_le_lemma",
@@ -667,7 +667,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "b517b9faf23bab6025330ddd10430161"
+      "9746d7f63da0c55feb3bd09f8b1e8c8c"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.lemma_nat_from_bytes_le_zeroes",
@@ -678,26 +678,23 @@
         "@MaxIFuel_assumption", "@query",
         "constructor_distinct_Lib.IntTypes.U8",
         "equality_tok_Lib.IntTypes.SEC@tok",
-        "equality_tok_Lib.IntTypes.U1@tok",
         "equality_tok_Lib.IntTypes.U8@tok", "equation_Lib.IntTypes.minint",
         "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.unsigned",
         "equation_Lib.Sequence.lseq", "equation_Lib.Sequence.to_seq",
         "equation_Spec.AES.gf8", "equation_Spec.AES.irred",
         "equation_Spec.GaloisField.felem", "equation_Spec.GaloisField.gf",
         "proj_equation_Spec.GaloisField.GF_t",
+        "projection_inverse_BoxInt_proj_0",
         "projection_inverse_Spec.GaloisField.GF_t",
         "refinement_interpretation_Tm_refine_48486e77aa5457d9a27027fef170c244",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
-        "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
-        "typing_Lib.IntTypes.v", "typing_Spec.AES.gf8",
-        "typing_Spec.AES.irred",
-        "typing_Spec.GaloisField.__proj__GF__item__t",
+        "typing_Lib.IntTypes.v", "typing_Spec.AES.irred",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "aeb61fc1f79cf6639f7b410412967ed2"
+      "9d82e9795b0d7944e0d7cb17bf94d7f0"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.lemma_nat_from_bytes_le_zeroes",
@@ -761,7 +758,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "4cf632990de2bd7f08b5e1c6d42b9991"
+      "ac498ed5159e292e7fac4160638a6bde"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.lemma_nat_from_bytes_le_zeroes",
@@ -772,7 +769,6 @@
         "@MaxIFuel_assumption", "@query",
         "constructor_distinct_Lib.IntTypes.U8",
         "equality_tok_Lib.IntTypes.SEC@tok",
-        "equality_tok_Lib.IntTypes.U1@tok",
         "equality_tok_Lib.IntTypes.U8@tok", "equation_Lib.IntTypes.minint",
         "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.unsigned",
         "equation_Lib.Sequence.lseq", "equation_Lib.Sequence.to_seq",
@@ -780,21 +776,19 @@
         "equation_Spec.AES.irred", "equation_Spec.GaloisField.felem",
         "equation_Spec.GaloisField.gf", "int_inversion",
         "proj_equation_Spec.GaloisField.GF_t",
+        "projection_inverse_BoxInt_proj_0",
         "projection_inverse_Spec.GaloisField.GF_t",
-        "refinement_interpretation_Tm_refine_17e9c3e3f341a8b5befb4287efa403d7",
         "refinement_interpretation_Tm_refine_48486e77aa5457d9a27027fef170c244",
+        "refinement_interpretation_Tm_refine_51adf9fdf11064774e27347a0c7f6f0b",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_83845a86f2550cdf941eeb1d9b59602b",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
-        "refinement_interpretation_Tm_refine_de8080fdc4bd6678af723874a7d70466",
-        "typing_Lib.IntTypes.v", "typing_Spec.AES.gf8",
-        "typing_Spec.AES.irred",
-        "typing_Spec.GaloisField.__proj__GF__item__t",
+        "typing_Lib.IntTypes.v", "typing_Spec.AES.irred",
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "2d9dc1baf847f798dd153a8b3b3e1664"
+      "18cd405785dc6d6c0072f5f6bdc8df5f"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.nat_from_bytes_le_eq_lemma_",
@@ -803,7 +797,8 @@
       1,
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented",
+        "@fuel_irrelevance_Prims.pow2.fuel_instrumented", "@query",
         "constructor_distinct_Lib.IntTypes.U8",
         "equality_tok_Lib.IntTypes.SEC@tok",
         "equality_tok_Lib.IntTypes.U1@tok",
@@ -812,8 +807,7 @@
         "equation_Lib.Sequence.length", "equation_Lib.Sequence.lseq",
         "equation_Prims.nat", "equation_Spec.AES.gf8",
         "equation_Spec.AES.irred", "equation_Spec.GaloisField.felem",
-        "equation_Spec.GaloisField.gf",
-        "equation_with_fuel_Prims.pow2.fuel_instrumented", "int_typing",
+        "equation_Spec.GaloisField.gf", "int_typing",
         "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
         "proj_equation_Spec.GaloisField.GF_t",
@@ -831,7 +825,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "400a2a4855f4b370d10cc54d4f8a3299"
+      "67361d54beb42968ca08b8f0fa76b876"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.nat_from_bytes_le_eq_lemma_",
@@ -890,7 +884,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "bb85aeb4666045cf7ff567b6e65f562c"
+      "ee1a5a9dfb08d93f170ea811942b2732"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.nat_from_bytes_le_eq_lemma",
@@ -899,7 +893,8 @@
       1,
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "@fuel_correspondence_Prims.pow2.fuel_instrumented",
+        "@fuel_irrelevance_Prims.pow2.fuel_instrumented", "@query",
         "constructor_distinct_Lib.IntTypes.U8",
         "equality_tok_Lib.IntTypes.SEC@tok",
         "equality_tok_Lib.IntTypes.U1@tok",
@@ -908,8 +903,7 @@
         "equation_Lib.Sequence.length", "equation_Lib.Sequence.lseq",
         "equation_Prims.nat", "equation_Spec.AES.gf8",
         "equation_Spec.AES.irred", "equation_Spec.GaloisField.felem",
-        "equation_Spec.GaloisField.gf",
-        "equation_with_fuel_Prims.pow2.fuel_instrumented", "int_typing",
+        "equation_Spec.GaloisField.gf", "int_typing",
         "lemma_FStar.UInt.pow2_values", "primitive_Prims.op_Addition",
         "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
         "proj_equation_Spec.GaloisField.GF_t",
@@ -927,7 +921,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d0c927dfbaed3ba6235ec2c82bea08b0"
+      "8f0a1294ed444973c1a4930b574f30ae"
     ],
     [
       "Hacl.Impl.Poly1305.Lemmas.nat_from_bytes_le_eq_lemma",
@@ -941,7 +935,7 @@
         "equation_Lib.ByteSequence.nat_from_intseq_le"
       ],
       0,
-      "f1323b760cb27d6289404e42b762bd32"
+      "9017c07a93612cd68bd353660c6051f2"
     ]
   ]
 ]

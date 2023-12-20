@@ -51,7 +51,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "49e8aafb3880205a39056e19ead696ed"
+      "b926b0049d2cde23a8d83e9b733a1bda"
     ],
     [
       "Hacl.Impl.Salsa20.rounds",
@@ -110,7 +110,7 @@
         "typing_Spec.Salsa20.size_key", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "3a7a78375e989ff6881ecd78a22ef7b7"
+      "fdd882d1572254d5fb18d793b9560379"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_core",
@@ -163,7 +163,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "90b9f6a8e0ddd4b6aa24e4cb85051f90"
+      "b25630a59dc09d7866f4fc9b277313c1"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_core",
@@ -243,7 +243,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "c84955ea4afaf7b475c91c1ea06f39e0"
+      "e951c30c4f0f059183c347a0cb698bc3"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_init",
@@ -296,7 +296,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "40af99a7e9e6b9a962e9b07bc4cbf510"
+      "3c5316a1744c6fe0068183133e190956"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_init",
@@ -479,7 +479,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "27d711e4cafaba103c11412b364bf3f1"
+      "8e47ea6e43c09c8a292226822d366d24"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt_block",
@@ -536,7 +536,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "192c948ab84fd0aa169558d9f1ca7fd2"
+      "cd811eba251dc9edf5f8fadebac5f0b7"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt_block",
@@ -683,7 +683,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "2a06a51865e6472e952934a17c03effa"
+      "c1bfe10bba6df36ad651fdaf581ec90d"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt_last",
@@ -739,7 +739,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "f35783f004a553f393973e81c5a47cce"
+      "e6e501c3f4843b8d1ed6aaa877b43268"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt_last",
@@ -904,7 +904,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "b0ba8653c4d409a0586700254c05e6be"
+      "14545e521f372d7f8d23cad781b6ea78"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_update",
@@ -961,7 +961,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "6c901b34f5e89f7b3389124b213a7ed1"
+      "d6c2d6f062e1450a9877f0f60b0069eb"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_update",
@@ -1130,7 +1130,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "963523e1fee31dec52473689ecd52bed"
+      "91b0a7eec9d03d5f0f37f58dafc3a851"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_key_block0",
@@ -1188,7 +1188,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "fe7fbe264cc43940530a5eaf3796d943"
+      "e1fdc05fcbade4ec95b4e248b3996ae5"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_key_block0",
@@ -1345,7 +1345,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "38c0be2c0e71a497b68fde9f3febdbab"
+      "097df3d3339dd3532c9fac8f112a89d5"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt",
@@ -1412,7 +1412,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "81d6408e9018826de9b8b9b96c67ea98"
+      "2b9e616e4543bd93127a1788c0e42fee"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_encrypt",
@@ -1567,7 +1567,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "76719785fc9e21c185f034ee43b9455f"
+      "3d73f03926853670770c4a1faf383e61"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_decrypt",
@@ -1634,7 +1634,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "9f7108b7e7223dd94d83a52034db964d"
+      "e669a55aea0d668effb35b6d59e4899a"
     ],
     [
       "Hacl.Impl.Salsa20.salsa20_decrypt",
@@ -1789,7 +1789,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "cd3feb8b25436c585080de2289c3dd9b"
+      "4932d138fb120f361d97256d3cd4d129"
     ]
   ]
 ]

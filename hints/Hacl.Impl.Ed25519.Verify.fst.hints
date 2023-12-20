@@ -81,7 +81,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "67d73c95c2f8d52820c6fc190d0ba0b5"
+      "5f497b5b7a4d38f1e92f868d103bc43e"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_all_valid_hb",
@@ -316,7 +316,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_256@tok", "unit_typing"
       ],
       0,
-      "eb9f29bedf4c2239154ee007b8a6041b"
+      "b3ab12a8e3c53a381d232bc82eed738d"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_sb",
@@ -489,7 +489,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok"
       ],
       0,
-      "6902740947a8d93b9e46c3b35858d6ea"
+      "a4f94868c5566b2657b5c8b9f5d5c92d"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_valid_pk_rs",
@@ -590,7 +590,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_224@tok"
       ],
       0,
-      "73f33c9b6bf46b6dbb1abe3ddb941390"
+      "11798b70104c17cd55f599e188269d7e"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_valid_pk_rs",
@@ -850,7 +850,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_224@tok", "unit_typing"
       ],
       0,
-      "75d819f936c5d32943c6a07bdf4768da"
+      "bcf37ca2b43b7c8bea8c6926b05569a5"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_valid_pk",
@@ -881,7 +881,7 @@
         "typing_LowStar.Monotonic.Buffer.len"
       ],
       0,
-      "1706607de1d922cbc4ddb9bc6421dda2"
+      "0b6f2b2bb7d03f70a7df6796579f6a73"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify_valid_pk",
@@ -1123,7 +1123,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok", "unit_typing"
       ],
       0,
-      "65fbd3d928eede2ec6b406260d485623"
+      "0d11bf627aaae8dd900f5dbc19e8b88c"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify",
@@ -1186,7 +1186,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "1d3a6f50435a49bb2953fed1c92047cb"
+      "5a33fb22e9937ec3a3321a213571f352"
     ],
     [
       "Hacl.Impl.Ed25519.Verify.verify",
@@ -1208,10 +1208,8 @@
         "constructor_distinct_FStar.Pervasives.Native.Some",
         "constructor_distinct_Lib.Buffer.MUT",
         "constructor_distinct_Lib.IntTypes.PUB",
-        "constructor_distinct_Lib.IntTypes.S128",
         "constructor_distinct_Lib.IntTypes.S16",
         "constructor_distinct_Lib.IntTypes.S32",
-        "constructor_distinct_Lib.IntTypes.S64",
         "constructor_distinct_Lib.IntTypes.U1",
         "constructor_distinct_Lib.IntTypes.U32",
         "constructor_distinct_Lib.IntTypes.U64",
@@ -1412,7 +1410,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok", "unit_typing"
       ],
       0,
-      "ca1481202424d04839130b851f804a97"
+      "d39541f5ea1b393341074e0476b7fafe"
     ]
   ]
 ]

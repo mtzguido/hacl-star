@@ -33,7 +33,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "69710e5bb0af259edcce78eb71fd2b11"
+      "9f1e9f3ecbcafc5af4dcab73514fd5b8"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.point_mul_g_compress",
@@ -234,7 +234,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_384@tok"
       ],
       0,
-      "614c87e06b1f82e7e5a976d52213daf4"
+      "4ed4402f0f3a254e7dd377ca218dd17c"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.sign_compute_s",
@@ -271,7 +271,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "a1cacc76137da8860ba281f382e158b6"
+      "0cdf76779defb1db490217fbfffc07e0"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.sign_compute_s",
@@ -507,13 +507,13 @@
         "typing_Spec.GaloisField.__proj__GF__item__t",
         "typing_Spec.Hash.Definitions.word_t",
         "typing_Tm_abs_3d77c1d80c0e9e736cdcf018f4780b14",
-        "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.SEC@tok",
-        "typing_tok_Lib.IntTypes.U8@tok",
+        "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.PUB@tok",
+        "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok",
         "typing_tok_Spec.Hash.Definitions.SHA2_256@tok",
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok", "unit_typing"
       ],
       0,
-      "ce437ebad6b3a60103c83ac05821dd22"
+      "fc2bbbf444ed096f2198ae5d697d4624"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.sign_expanded",
@@ -618,7 +618,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_224@tok"
       ],
       0,
-      "523ca782109ee092577b71e1797bb41c"
+      "00669a4f853e8a7866b063c669dda0b2"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.sign_expanded",
@@ -639,10 +639,8 @@
         "constructor_distinct_FStar.Integers.Winfinite",
         "constructor_distinct_Lib.Buffer.MUT",
         "constructor_distinct_Lib.IntTypes.PUB",
-        "constructor_distinct_Lib.IntTypes.S128",
         "constructor_distinct_Lib.IntTypes.S16",
         "constructor_distinct_Lib.IntTypes.S32",
-        "constructor_distinct_Lib.IntTypes.S64",
         "constructor_distinct_Lib.IntTypes.U1",
         "constructor_distinct_Lib.IntTypes.U32",
         "constructor_distinct_Lib.IntTypes.U64",
@@ -876,7 +874,7 @@
         "typing_tok_Spec.Hash.Definitions.SHA2_512@tok", "unit_typing"
       ],
       0,
-      "44c8803cc817e106a93f7f1087f04cc1"
+      "cda64f42571914ebd0ddb94eb6dfe7d7"
     ]
   ]
 ]

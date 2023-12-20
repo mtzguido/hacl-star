@@ -25,7 +25,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "10087cb78dfe0d2416224adc914d3a4f"
+      "45ee035754d0f6aeb9e0a32667e42f25"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul1",
@@ -214,7 +214,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "e229d08e35f449065f53e416f04c5eb7"
+      "923728ea40fef0fdd9a27f37e01f074d"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul1_add_in_place",
@@ -240,7 +240,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "83fd281c1bbc72ec3964afb0d9b8bc29"
+      "8c2080b288f3c5010a82c9a0a6b0849b"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul1_add_in_place",
@@ -440,7 +440,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "5d7cc336b65f86379c391a3cb0b003d3"
+      "0c9180640bb261e5dbb86ee96ac18ab1"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul1_lshift_add",
@@ -469,7 +469,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "55406cd6aab3d5c4b68f992faca9906e"
+      "15b88959f0a3bae90bc77aaad7eed604"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul1_lshift_add",
@@ -524,7 +524,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "d78eb696a684110739dfa66227105b51"
+      "c444c9fd0133faa86172970b278874b0"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul_st",
@@ -557,7 +557,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "c226519c0cacfd34ab1e3a30a3fd8c7f"
+      "81e2fa89d85b973cdfc0b200f7e6a14f"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul",
@@ -583,10 +583,12 @@
         "equation_FStar.Monotonic.HyperStack.is_tip",
         "equation_FStar.Monotonic.HyperStack.is_wf_with_ctr_and_tip",
         "equation_FStar.Monotonic.HyperStack.mem",
+        "equation_FStar.UInt.uint_t",
         "equation_Hacl.Bignum.Definitions.lbignum",
         "equation_Hacl.Bignum.Definitions.limb",
         "equation_Hacl.Bignum.Definitions.limb_t",
         "equation_Hacl.Spec.Bignum.Definitions.lbignum",
+        "equation_Hacl.Spec.Bignum.Definitions.limb",
         "equation_Hacl.Spec.Bignum.Definitions.limb_t",
         "equation_Hacl.Spec.Bignum.Multiplication.bn_mul",
         "equation_Hacl.Spec.Bignum.Multiplication.bn_mul_",
@@ -599,20 +601,21 @@
         "equation_Lib.IntTypes.int_t", "equation_Lib.IntTypes.maxint",
         "equation_Lib.IntTypes.minint", "equation_Lib.IntTypes.pub_int_t",
         "equation_Lib.IntTypes.pub_int_v", "equation_Lib.IntTypes.range",
-        "equation_Lib.IntTypes.unsigned", "equation_Lib.IntTypes.v",
-        "equation_Lib.Sequence.lseq", "equation_Lib.Sequence.to_seq",
-        "equation_LowStar.Buffer.buffer",
+        "equation_Lib.IntTypes.uint32", "equation_Lib.IntTypes.unsigned",
+        "equation_Lib.IntTypes.v", "equation_Lib.Sequence.lseq",
+        "equation_Lib.Sequence.to_seq", "equation_LowStar.Buffer.buffer",
         "equation_LowStar.Buffer.trivial_preorder",
         "equation_LowStar.Monotonic.Buffer.length", "equation_Prims.nat",
         "equation_Prims.pos",
-        "function_token_typing_FStar.Monotonic.Heap.heap", "int_inversion",
+        "function_token_typing_FStar.Monotonic.Heap.heap",
+        "function_token_typing_Lib.IntTypes.uint32", "int_inversion",
         "int_typing",
         "interpretation_Tm_abs_cdff940b3c5cf234fe2c71d0b3b02628",
         "lemma_FStar.HyperStack.ST.lemma_equal_domains_trans",
         "lemma_FStar.Map.lemma_ContainsDom",
         "lemma_FStar.Seq.Properties.slice_length",
-        "lemma_FStar.UInt32.uv_inv", "lemma_Lib.IntTypes.add_lemma",
-        "lemma_Lib.IntTypes.sub_lemma", "lemma_Lib.IntTypes.v_injective",
+        "lemma_FStar.UInt32.uv_inv", "lemma_Lib.Buffer.as_seq_gsub",
+        "lemma_Lib.IntTypes.add_lemma", "lemma_Lib.IntTypes.sub_lemma",
         "lemma_LowStar.Monotonic.Buffer.address_liveness_insensitive_buffer",
         "lemma_LowStar.Monotonic.Buffer.as_seq_gsub",
         "lemma_LowStar.Monotonic.Buffer.lemma_live_equal_mem_domains",
@@ -640,11 +643,13 @@
         "refinement_interpretation_Tm_refine_aa0de69914a5fc7ba6ce4130e66bd8ed",
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92",
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42",
+        "refinement_interpretation_Tm_refine_e9c32a5fb00a4e8c339597118c871180",
         "refinement_interpretation_Tm_refine_f0949a6ac8e693fbebdad8cf88b7b78c",
+        "refinement_interpretation_Tm_refine_f13070840248fced9d9d60d77bdae3ec",
         "refinement_interpretation_Tm_refine_feb9bb9f35b4e580b5c2b388310d192a",
         "typing_FStar.Map.contains", "typing_FStar.Monotonic.HyperHeap.rid",
         "typing_FStar.Monotonic.HyperStack.get_hmap",
-        "typing_FStar.Monotonic.HyperStack.get_tip",
+        "typing_FStar.Monotonic.HyperStack.get_tip", "typing_FStar.UInt32.v",
         "typing_Hacl.Bignum.Definitions.limb", "typing_Lib.Buffer.length",
         "typing_Lib.Buffer.loc", "typing_Lib.IntTypes.bits",
         "typing_Lib.IntTypes.sub", "typing_Lib.IntTypes.v",
@@ -655,7 +660,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "8ec22563b4756b49374a5acc4afef20b"
+      "df00a8e09b707ceb9ac39b15b24605e4"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul",
@@ -757,7 +762,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "2d469d857e8c3501e519b488224527ef"
+      "59b5dc97a2a49e3c66c5cef975397988"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_mul_u",
@@ -780,7 +785,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "3a1ecd05f8a0c5f019405801f05858f3"
+      "1ea454f6d5c4a7709f6c119f6fafeaec"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr_diag",
@@ -828,7 +833,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "dd0a6806db191754783b8153f4321a39"
+      "d7d306530be0b3f309385f33c73fd3d4"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr_diag",
@@ -924,7 +929,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "b559b5bfe2fe166c87ce1ba413997303"
+      "fb6c184009d1f84f9987cd080a82be4f"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr_diag",
@@ -1020,7 +1025,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "921a76cca6af7a9b66fca613657469f5"
+      "4e0f6bdab1121ae6e37bf6adb5425775"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr_st",
@@ -1053,7 +1058,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "4fd191c1c137e8a62691461a2e061457"
+      "531812651e8b18baf9331496c64e65b5"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr",
@@ -1257,7 +1262,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "d6c0714248b1a6263d576c36584f405b"
+      "2802f74e5cf66877b7f9f347d17b95d9"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr",
@@ -1456,7 +1461,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "214d5ffa6233496c93f44ebd4774f24a"
+      "843d0e53c076bdcc81c70071a8c9cce8"
     ],
     [
       "Hacl.Bignum.Multiplication.bn_sqr_u",
@@ -1479,7 +1484,7 @@
         "refinement_interpretation_Tm_refine_cfc744b198940c21e3f980c86ac17a92"
       ],
       0,
-      "e936a70f44da4654d9ab4e2dc436eacc"
+      "90e5e8c467dac08519faff594638a78d"
     ]
   ]
 ]

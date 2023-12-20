@@ -53,7 +53,7 @@
         "typing_Spec.Poly1305.size_key", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "7a6105429c2c10a2923635917a50ab82"
+      "1308647c8738a1a27abb5bf067db37f1"
     ],
     [
       "Hacl.Impl.Poly1305.Field32xN_256.load_acc4",
@@ -248,7 +248,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "ef554e2eacce9bf52d3fba80fa8c0f95"
+      "e70b15ba4711b7e39694132912b61e6c"
     ],
     [
       "Hacl.Impl.Poly1305.Field32xN_256.load_acc4",
@@ -443,7 +443,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "adcbb2a1bc0a00795098d33bb8051b20"
+      "71d0fd4e179d62ccace2f87c5403e147"
     ],
     [
       "Hacl.Impl.Poly1305.Field32xN_256.fmul_r4_normalize",
@@ -456,7 +456,6 @@
         "constructor_distinct_Lib.IntTypes.U32",
         "constructor_distinct_Lib.IntTypes.U8",
         "equality_tok_Lib.IntTypes.PUB@tok",
-        "equality_tok_Lib.IntTypes.U1@tok",
         "equality_tok_Lib.IntTypes.U32@tok",
         "equality_tok_Lib.IntTypes.U8@tok", "equation_FStar.UInt.fits",
         "equation_FStar.UInt.max_int", "equation_FStar.UInt.min_int",
@@ -481,7 +480,7 @@
         "typing_Spec.Poly1305.size_key", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "02cc3d75247773fdb4ca9f583a2ea9df"
+      "0e6e17c657777502c1844468216e8e4e"
     ],
     [
       "Hacl.Impl.Poly1305.Field32xN_256.fmul_r4_normalize",
@@ -610,7 +609,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "ae24bd3f81e598ac0345e734d9795ab7"
+      "1abed40c1fbb0e9cb1dbbebae9dbaf1a"
     ],
     [
       "Hacl.Impl.Poly1305.Field32xN_256.fmul_r4_normalize",
@@ -739,7 +738,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "be13f6de472defd108585ea222776be8"
+      "2ac399a9bc64d01a7384e4a7bc55c256"
     ]
   ]
 ]

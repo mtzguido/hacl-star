@@ -15,7 +15,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "a6d7a8b690c2e239c862132e82e1537d"
+      "9c74057efcda90dda789c9947bc2080b"
     ],
     [
       "Spec.Chacha20.block",
@@ -32,7 +32,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "7b0fe314e1dcb5a65a2f1b8c4d41da83"
+      "6e9cc59c462c82aa1b3b822614d2003b"
     ],
     [
       "Spec.Chacha20.nonce",
@@ -49,7 +49,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "a22e4d641f2221df97df7520e426e236"
+      "40c3c7ce106f787c4418091ef2714ca2"
     ],
     [
       "Spec.Chacha20.state",
@@ -64,7 +64,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "0b9746d0574e41899fe6ee4afaae1e77"
+      "2963ea2efc4be368b987802c875af011"
     ],
     [
       "Spec.Chacha20.line",
@@ -74,6 +74,8 @@
       [
         "@MaxFuel_assumption", "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
+        "constructor_distinct_Lib.IntTypes.S16",
+        "constructor_distinct_Lib.IntTypes.S8",
         "constructor_distinct_Lib.IntTypes.U32",
         "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.minint",
         "equation_Lib.IntTypes.unsigned", "equation_Lib.Sequence.lseq",
@@ -93,7 +95,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "37aa10c478a065a05b6e6bb9d285f1f7"
+      "4d9aab4cf13686de0735cb3e23f63247"
     ],
     [
       "Spec.Chacha20.quarter_round",
@@ -120,7 +122,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "d5f34b6cfc84d66e13f07485aaac2935"
+      "1ea0df0077242302e82c3dbdd0ab3d81"
     ],
     [
       "Spec.Chacha20.column_round",
@@ -138,7 +140,7 @@
         "typing_Prims.pow2", "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "8a21300671007b6e4c07a4ea708de03c"
+      "40f97c3ddaed6d5ce3c9ef35f9ae005b"
     ],
     [
       "Spec.Chacha20.diagonal_round",
@@ -156,7 +158,7 @@
         "typing_Prims.pow2", "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "f2f429c7351053e7fb9e3326066d8762"
+      "9a50a638fa47187d0de9409384754873"
     ],
     [
       "Spec.Chacha20.sum_state",
@@ -171,7 +173,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "6ef3f372d76109189ae658bd064bd05b"
+      "c1d672269e233fa9412d5ece8486c2ee"
     ],
     [
       "Spec.Chacha20.chacha20_add_counter",
@@ -196,7 +198,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "cf009c0dfbfd9ef21d15e3cba6d82d56"
+      "24c0e51e26200d7f7ad0042dd5e2692f"
     ],
     [
       "Spec.Chacha20.chacha20_constants",
@@ -213,7 +215,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "8a41cdebf6f2b0387908a28a29debbed"
+      "8a93c3b9c396558c33cd91f8ab7f3b7a"
     ],
     [
       "Spec.Chacha20.setup",
@@ -254,7 +256,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "e57306d121a408ffa231087bc1061148"
+      "583837417296992c831bf51fecbb7a9f"
     ],
     [
       "Spec.Chacha20.chacha20_init",
@@ -278,7 +280,7 @@
         "typing_FStar.Seq.Base.length"
       ],
       0,
-      "f2c6ea513aa6f4e9713f5ec3cb58f10b"
+      "a73167a77c1b50fba0d70cdfd02d1e72"
     ],
     [
       "Spec.Chacha20.chacha20_key_block0",
@@ -306,7 +308,7 @@
         "typing_FStar.Seq.Base.length", "typing_Prims.pow2"
       ],
       0,
-      "397944e8d178ab359cec34216984e242"
+      "5c3bbe61bb918c6e1a957c49bc145d45"
     ],
     [
       "Spec.Chacha20.chacha20_key_block",
@@ -326,7 +328,7 @@
         "typing_Prims.pow2", "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "de5af97eafbc7a4ee39f3848bcee55ff"
+      "a8c94a21d08bde5157c9f66f8976cf2e"
     ],
     [
       "Spec.Chacha20.xor_block",
@@ -346,7 +348,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "bff6c591981fff6eb75519facfada95f"
+      "d4386cdfc9cbb257b9ad81fe18e1c5f2"
     ],
     [
       "Spec.Chacha20.chacha20_encrypt_last",
@@ -376,7 +378,7 @@
         "typing_Spec.Chacha20.size_key", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "4bba6a6e1db20dbc4a57f5b4c00ccb43"
+      "b65a66096fb773122512ae24a770b243"
     ],
     [
       "Spec.Chacha20.chacha20_update",
@@ -391,7 +393,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "8fa8f145e0ec4a69a41d85745b6e1571"
+      "190c5e9e68d4482f35d5ce519d1ac754"
     ],
     [
       "Spec.Chacha20.chacha20_update",
@@ -409,7 +411,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "35ed8355040d6364542e81b1784b1f1d"
+      "b2569cb2efc03d5d48379f12419f2742"
     ],
     [
       "Spec.Chacha20.chacha20_update",
@@ -427,7 +429,7 @@
         "typing_Spec.Chacha20.size_key"
       ],
       0,
-      "a33ff190d3a3eb37601b4f69a8364c9f"
+      "7f76df8bbd5d4e89facfb4a1d3da21be"
     ],
     [
       "Spec.Chacha20.chacha20_encrypt_bytes",
@@ -442,7 +444,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "f33730040779322cc1e43d73bba28944"
+      "c35c617e8d3f3ea09125b41dce7a7aa6"
     ],
     [
       "Spec.Chacha20.chacha20_encrypt_bytes",
@@ -457,7 +459,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "e40fef22ecd4259d5fd9981c28089e2f"
+      "1b00085418d32249565b3fbac22e2092"
     ],
     [
       "Spec.Chacha20.chacha20_decrypt_bytes",
@@ -472,7 +474,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "57a30f550c5ce9e7c4da7343d413ebd4"
+      "21520fb8cd9057d5cb501ecd77fb3f68"
     ],
     [
       "Spec.Chacha20.chacha20_decrypt_bytes",
@@ -487,7 +489,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "4075d2beb66ffa122ee86901fdcd42c7"
+      "1355e84be8e3e779a5599398fccfa2ad"
     ],
     [
       "Spec.Chacha20.chacha20_decrypt_bytes",
@@ -499,7 +501,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "ab1c25a05794e99974c4e3fd810388dd"
+      "3a8b6f2f8788f6c01f38e4196a6a2190"
     ]
   ]
 ]

@@ -1,5 +1,5 @@
 [
-  "¥ïO2ä=ÇQ.E\u001b_K5ØÚ",
+  "R³êFž‘?µÐ\u000f„G=îÉG",
   [
     [
       "Hacl.Spec.BignumQ.Lemmas.feq",
@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "f8d2f926383efd6b5035cbcdbdc2128d"
+      "f1d690ceb3931d008f540d90c280b4af"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.eq_eq2",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "1cb17a3f10197997f2067453c07e5d67"
+      "00d7b2661b59b69825ec6a22ee22825a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_lt",
@@ -30,7 +30,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "a1d5a62f9e696dff3815ac26cf9b3381"
+      "6c5537993a4b9561b1c200b596e5a9f2"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_as_nat5",
@@ -63,7 +63,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "a78f3c4dd52ae231a4d6c0491ed1b26d"
+      "6da320d4f3b5860359b558a8d66bd456"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_choose_step",
@@ -91,7 +91,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "185e9fc71caab4a975c4ac6333d434be"
+      "0446296828f7d409a15aa54566c5f64a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_choose_step",
@@ -137,28 +137,29 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "8982f56ade3c79e79d95d662152af8ed"
+      "66d5fb36ce2296fdb4278c51e2f5d70b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_subm_conditional",
       1,
       2,
       1,
+      [ "@query", "true_interp" ],
+      0,
+      "06954f5787247cfc054b8881629b26fe"
+    ],
+    [
+      "Hacl.Spec.BignumQ.Lemmas.lemma_subm_conditional",
+      2,
+      2,
+      1,
       [
-        "@MaxFuel_assumption", "@MaxIFuel_assumption",
-        "@fuel_correspondence_Prims.pow2.fuel_instrumented",
-        "@fuel_irrelevance_Prims.pow2.fuel_instrumented", "@query",
-        "equation_Prims.nat", "equation_Prims.pos",
-        "equation_with_fuel_Prims.pow2.fuel_instrumented", "int_inversion",
-        "int_typing", "primitive_Prims.op_Addition",
-        "primitive_Prims.op_Multiply", "primitive_Prims.op_Subtraction",
-        "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
-        "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
-        "token_correspondence_Prims.pow2.fuel_instrumented"
+        "@MaxIFuel_assumption", "@query", "int_inversion", "int_typing",
+        "primitive_Prims.op_Addition", "primitive_Prims.op_Multiply",
+        "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "3e85a3ce3f3b89e9e2d77a3c6f96ca35"
+      "a10cb93bf057e8464074ff5d88655182"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div224",
@@ -167,7 +168,7 @@
       0,
       [ "@query" ],
       0,
-      "9575cfbf7524133eec7d19f83e489c4b"
+      "45ee2ace22132459e06ccd4d0c16f92c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div224",
@@ -233,7 +234,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "4744e4fdf119262c88e833ce20aef53a"
+      "4e43c207227eb5269f1733a328bb1d30"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_aux",
@@ -242,7 +243,7 @@
       0,
       [ "@query" ],
       0,
-      "9adf51a0d6ff3f9bd4c7fffd533023a8"
+      "058aba8b76a1f5ec4f66d61bc8bfc4e8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_aux",
@@ -251,7 +252,7 @@
       0,
       [ "@query" ],
       0,
-      "6212ee2bf42d59dc9f1ce45e2f57a5bf"
+      "04f1f9013935dd85673eefaae1636951"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_aux",
@@ -276,7 +277,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow224"
       ],
       0,
-      "5bd24d8d8a377bf6c94f9f413037c4a4"
+      "f6a0280b9733be7ca82a79aba78f71c3"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x5",
@@ -285,7 +286,7 @@
       0,
       [ "@query" ],
       0,
-      "b62d372729169340bc1ac828a8300c00"
+      "1d815dd6db305cfd51ad5278d9e5306e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x5",
@@ -314,7 +315,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "55973740381df9c2d3847c29f0f58690"
+      "51fb9f76747831a7281f57aa291ac0a4"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -323,7 +324,7 @@
       0,
       [ "@query" ],
       0,
-      "d69c7405b9b0e73835100198028cc83d"
+      "1c3da877e4aeac8a126ebc4ddad0751a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -335,7 +336,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "e2bfc5df45aeb3cd4fe126b8e30539d1"
+      "f182d735f35ef872240ec688890fd8c2"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -344,7 +345,7 @@
       0,
       [ "@query" ],
       0,
-      "21ca32c80842317bbbdce731409b3060"
+      "423a2c66c8d943b37f3f2ccc69211a0a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -353,7 +354,7 @@
       0,
       [ "@query" ],
       0,
-      "21ca32c80842317bbbdce731409b3060"
+      "423a2c66c8d943b37f3f2ccc69211a0a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -365,7 +366,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "67e340c7fca90348a85926ff0735de76"
+      "b036850df941b569e676ce6a32f9ce78"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x6",
@@ -377,7 +378,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "e9cf1af4acdc3882e52d88f401ca5140"
+      "3ada51023a25d078847701a1ba151095"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -386,7 +387,7 @@
       0,
       [ "@query" ],
       0,
-      "2c5166c498f861d6a8d9d172d1278b6d"
+      "4e4f3874b16a2abdc06d4cafcf11de0b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -398,7 +399,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "c570c03ea0a38cf6587b4bb02003de09"
+      "b9fab60ceeb22ab88a2f2ae4b9c4d6c9"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -407,7 +408,7 @@
       0,
       [ "@query" ],
       0,
-      "711e9d1e12ba437731d5eaa8f8b6872a"
+      "c5bb2f6ce73b31114609afda48b205ee"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -416,7 +417,7 @@
       0,
       [ "@query" ],
       0,
-      "711e9d1e12ba437731d5eaa8f8b6872a"
+      "c5bb2f6ce73b31114609afda48b205ee"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -428,7 +429,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "800d5dbfcecdedfdace872f0329fd2cc"
+      "9d2b0bb81dacf6da2592ac2fcd0df906"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x7",
@@ -440,7 +441,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "6be2a4831fc4cf1d3a7b333f9911943a"
+      "456a296c709e4c94efe6dc544e1d0924"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -449,7 +450,7 @@
       0,
       [ "@query" ],
       0,
-      "abca3eaad59968b0c8a7bb875462c963"
+      "5f2fd2383dbdfbd547bf50f51b6a2a83"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -461,7 +462,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "e57f33335e54274de9f79a1ba4839821"
+      "fb6c01234f1bb477e5385553da843a5c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -470,7 +471,7 @@
       0,
       [ "@query" ],
       0,
-      "62fd8a4f23ec2c5c00f9b5c88164301a"
+      "4c5b0162359f7369fd68586afa075e3a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -479,7 +480,7 @@
       0,
       [ "@query" ],
       0,
-      "62fd8a4f23ec2c5c00f9b5c88164301a"
+      "4c5b0162359f7369fd68586afa075e3a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -491,7 +492,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "be59ab8ead553dd118748e458ce49647"
+      "3f3c9b272e54196741184444dea05af3"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x8",
@@ -503,7 +504,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "78c88a760fc050935a09327c560d3984"
+      "041bbba6f9d6c8838d8c19f093bb038f"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x9",
@@ -512,7 +513,7 @@
       0,
       [ "@query" ],
       0,
-      "f5e0f903c2c2277217d949d034fd6edf"
+      "87b68e31f71206f7b5af50efbe7e23ae"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x9",
@@ -524,7 +525,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "f046c1638cfd35de5eebfa7a972a7dab"
+      "fe08ff66ef84ecb7a248ade4e3a0be05"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x9",
@@ -557,7 +558,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ba22cc98d0699943a07cd04826394d18"
+      "417b2224ef42a15f4441afb49194dabd"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248_x9",
@@ -579,7 +580,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "515e2bc2bf91d575e5b7b79b9ec59969"
+      "8fd945051adbb23c51b5cdfd6306e71a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_wide_as_nat_pow512",
@@ -625,7 +626,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "3851fe3b024a9cf91097519fc20d28b4"
+      "ce79758bbb15c51f30996bbb7a430c25"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -637,7 +638,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "75b902769fee2ae652136eb298b16c17"
+      "52c88c2567a678105bf3d6497ba9c5ec"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -646,7 +647,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -655,7 +656,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -664,7 +665,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -673,7 +674,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -682,7 +683,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -691,7 +692,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -700,7 +701,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -709,7 +710,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -718,7 +719,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -727,7 +728,7 @@
       0,
       [ "@query" ],
       0,
-      "67cab4c408c95cca39f6acfbf3755d29"
+      "3f4bec76af9e8319a65e3035e81d6b76"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -760,7 +761,7 @@
         "typing_Lib.IntTypes.sec_int_v", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "a8114120784b5685bcb34a6133f80dbc"
+      "e82bf9a17444fef3db9d1f240d009dc3"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div248",
@@ -781,7 +782,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "d7ca77c8ed9e0bafca9dd01287a28f35"
+      "e35dc8aa04c38c24ce9378bd8e433378"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_add_modq5",
@@ -812,7 +813,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.as_nat5"
       ],
       0,
-      "6d854dbb32bde62138d78e47a5064794"
+      "b1e3d4b38f16045ab994c4ec4cadabce"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_add_modq5",
@@ -844,7 +845,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "69ff27b2f45c373ec229c1a316dc9aa2"
+      "0d9856a5773b56ecf1f4b90532cb4e91"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_wide_as_nat_pow528",
@@ -887,7 +888,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ad0365a949730fc08099657992d8607d"
+      "e313acdf8ab6fe8fd0736555f00d8a86"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_aux",
@@ -896,7 +897,7 @@
       0,
       [ "@query" ],
       0,
-      "de59ddb338695077e79fd4e1b689f3bd"
+      "f1f13119502d41c98949c199bf904e35"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_aux",
@@ -905,7 +906,7 @@
       0,
       [ "@query" ],
       0,
-      "982a0c47668f0f9cddc794cafccfbc39"
+      "6b34362b8ea315f5330211a4d701601d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_aux",
@@ -930,7 +931,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow224"
       ],
       0,
-      "8f82d9df92afca2976882712e6de4cb6"
+      "92276a0f560928d924f75bbf9d3f6f54"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -939,7 +940,7 @@
       0,
       [ "@query" ],
       0,
-      "a7069765cc4b08d7c36473fa611ccb84"
+      "9783447e0d58d2fe6f5e4fca1badf679"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -951,7 +952,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "afd0c35b2499a2551ddb782456530b07"
+      "77a15edd3f3f6f15056515a62e6ba314"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -960,7 +961,7 @@
       0,
       [ "@query" ],
       0,
-      "de8534db8b06dfb500d6c18054d36539"
+      "9b5f0177dbc320d544a4edb5101933a5"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -969,7 +970,7 @@
       0,
       [ "@query" ],
       0,
-      "de8534db8b06dfb500d6c18054d36539"
+      "9b5f0177dbc320d544a4edb5101933a5"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -981,7 +982,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "7856ed76460618aa17d78e64dc758b41"
+      "327049be5b2214a0d4e6ce0145db8a8c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x5",
@@ -993,7 +994,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "5ca19644e1e7fde6040d38244ae86e57"
+      "447f43b15d622b9a647039e89c71d7cc"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1002,7 +1003,7 @@
       0,
       [ "@query" ],
       0,
-      "9c05b48571a83bd9265e37f4a734e24e"
+      "77a42d443d32a84bed5cbd51719cd4be"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1015,7 +1016,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "c1f80523dbbe9b874c8a790413eceab6"
+      "98c66a3c9703389c26d0960610362151"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1024,7 +1025,7 @@
       0,
       [ "@query" ],
       0,
-      "2b6ad88b71b5da1ce7b1099e16018be9"
+      "08bbe1bb51e5f27ce9fa418b646c8811"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1033,7 +1034,7 @@
       0,
       [ "@query" ],
       0,
-      "2b6ad88b71b5da1ce7b1099e16018be9"
+      "08bbe1bb51e5f27ce9fa418b646c8811"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1064,7 +1065,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "892f4170ce7a650e0fddc47ae86bee22"
+      "a7723ced1ec3221cc6d70499bbc19a28"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x6",
@@ -1076,7 +1077,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "1660f8aceb239c2732aba01f60d1b0df"
+      "19238c9540045472311100093b548534"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1085,7 +1086,7 @@
       0,
       [ "@query" ],
       0,
-      "194e13b41574acab0083bdcef138afa2"
+      "6668f1b062a5ad226151894f114ed6ff"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1098,7 +1099,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "c13b4bf1ba4e1a0ac6449470f9029bc3"
+      "eed6fb4f95de9d5bb77c6c72bf27690e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1107,7 +1108,7 @@
       0,
       [ "@query" ],
       0,
-      "92394d8461617853b34942f6e1eae784"
+      "22ca30331f60a720ef390260dd5528ef"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1116,7 +1117,7 @@
       0,
       [ "@query" ],
       0,
-      "92394d8461617853b34942f6e1eae784"
+      "22ca30331f60a720ef390260dd5528ef"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1147,7 +1148,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "362d13964f5e815e5b18e7e9fbd24e33"
+      "667e86ebc8eeccc56b4fce796d8b454f"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x7",
@@ -1159,7 +1160,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "1853a225914fd0697db13948f996b29e"
+      "a875c13ee8b3398710c224605e44ae83"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1168,7 +1169,7 @@
       0,
       [ "@query" ],
       0,
-      "8685527d4e946eb497a49dfa56a25218"
+      "3a3462ae409848e1d17180993af627d8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1180,7 +1181,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "c72adceee6d8b7ec5b2f2451dce36d16"
+      "ba165f36ade08fa30e65d49b34e9125c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1189,7 +1190,7 @@
       0,
       [ "@query" ],
       0,
-      "0abcd1a4d409418c1e0d2e67cb0b223a"
+      "f80c1c459a64c5706b368e00837c92da"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1198,7 +1199,7 @@
       0,
       [ "@query" ],
       0,
-      "0abcd1a4d409418c1e0d2e67cb0b223a"
+      "f80c1c459a64c5706b368e00837c92da"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1229,7 +1230,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "743af2ef4d1a12bd331e26e808865732"
+      "b9eee0452de20e9a915d2081bbe39aba"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x8",
@@ -1241,7 +1242,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "30bbcf13ab70541d7ea82a1413141359"
+      "0bb53a99d94e46ce714538b737aea840"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x9",
@@ -1250,7 +1251,7 @@
       0,
       [ "@query" ],
       0,
-      "2011babeccafbd087287601890f195ef"
+      "e9fe01a0e6cc76e0cb82c28d083e2dc0"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x9",
@@ -1262,7 +1263,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "4dfac140135e8b1306ebde55f77e4703"
+      "534530528f8e8979d933d61c36782f6f"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x9",
@@ -1295,7 +1296,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "6abf94ffd8b3a61574807f8e81d1f4ca"
+      "a7cebc08f5013b20e116e9c34f570b89"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264_x9",
@@ -1317,7 +1318,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "989d686c3788bafa05f99d0cf0941559"
+      "8801294511e6e283e6d21b2dd743551c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1329,7 +1330,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "0c8cb08004e8f5da8d0db87ae6b55c71"
+      "02ebf2d08a1696badb677320ed93170c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1338,7 +1339,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1347,7 +1348,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1356,7 +1357,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1365,7 +1366,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1374,7 +1375,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1383,7 +1384,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1392,7 +1393,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1401,7 +1402,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1410,7 +1411,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1419,7 +1420,7 @@
       0,
       [ "@query" ],
       0,
-      "62edbfc7f2ac02c55d081de110c98ded"
+      "098d96a890dcc7c53f1cd0d346e2898e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1452,7 +1453,7 @@
         "typing_Lib.IntTypes.sec_int_v", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ae4b39575d833bdce97984c9c446a4a5"
+      "3482867173a50d6227791916adcf1f92"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div264",
@@ -1486,7 +1487,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "13e5629b1a83cf1bf79c2e0fcb173294"
+      "22dc2ad1e92db5020790f2db5713f913"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_aux",
@@ -1495,7 +1496,7 @@
       0,
       [ "@query" ],
       0,
-      "594f8399ad88be97b6b88ae3d6a7ffba"
+      "a45930d3d50a5b261406549d3802834c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_aux",
@@ -1561,7 +1562,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "17b7c395d3367172dae0d8391e97caf0"
+      "87ccced8ef73c360354d029a0b928aaf"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_as_nat_pow264",
@@ -1593,7 +1594,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow224"
       ],
       0,
-      "b26ff001c93974ff0a6ffe61bbeee9b1"
+      "d2238368d6a4e66f837745006087e67e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264",
@@ -1602,10 +1603,10 @@
       1,
       [
         "@MaxIFuel_assumption", "@query",
+        "constructor_distinct_Lib.IntTypes.S16",
         "constructor_distinct_Lib.IntTypes.S32",
-        "constructor_distinct_Lib.IntTypes.U32",
+        "constructor_distinct_Lib.IntTypes.S8",
         "constructor_distinct_Lib.IntTypes.U64",
-        "constructor_distinct_Spec.Hash.Definitions.SHA2_512",
         "equality_tok_Lib.IntTypes.U64@tok",
         "equation_Hacl.Spec.BignumQ.Definitions.pow56",
         "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.maxint",
@@ -1616,7 +1617,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "0ae405952a81eccc8c8da3d62da20492"
+      "1e829d549faee49c4a59f90231a946a8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264",
@@ -1704,7 +1705,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "5647fdcdbef252f7518d2a664c2a9ae8"
+      "6797a91db3928b35795c448306133e7b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_as_nat_pow264_x4",
@@ -1736,7 +1737,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "4de237be0e02e1b9bbe19532c335ad7b"
+      "a4b54b55fbba6e84167d72f2c20d1ddf"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_sub_mod_264_aux",
@@ -1763,7 +1764,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "10f3636d24d16cfb3f73268e30e2bc3c"
+      "59e96c6f425cbc1d7d8fcd69de1318b7"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_sub_mod_264",
@@ -1800,7 +1801,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "dd98e4660be0cc4ac75fde351f418ade"
+      "eb5e1b197747df1c7aea7f43db2effae"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_qelem5",
@@ -1809,7 +1810,7 @@
       0,
       [ "@query", "true_interp" ],
       0,
-      "a752fa2ea3f7d29316249c965b68194b"
+      "aaa61e2e08d408a1bbc4e20debe8e367"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_5_low_264",
@@ -1818,7 +1819,7 @@
       0,
       [ "@query", "projection_inverse_BoxInt_proj_0" ],
       0,
-      "8fe973fd14991d14a4a7144bbc263a3f"
+      "20a5a7c481de312b874827b8add94bf2"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_nat_is_nat",
@@ -1831,7 +1832,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "60120d456566770e9fa43040b4d24d6b"
+      "3427332ec7a4a5d458cc50bfc8729c12"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_div_nat_is_nat",
@@ -1846,7 +1847,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "272594491e9bdc635ac73a428ee384a6"
+      "b20bd1aa338a46c4601d9f7230e72e19"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_5'''",
@@ -1855,7 +1856,7 @@
       0,
       [ "@query" ],
       0,
-      "953456a1609cbb2239dadb32abeddc13"
+      "0d346c4f37690875cb7ad0392daf945a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_5'''",
@@ -1864,7 +1865,7 @@
       0,
       [ "@query" ],
       0,
-      "3ba59096638b08708833f7c4d2e80b15"
+      "fd59e256c19886c27d9f503bd36b4e96"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_5'''",
@@ -1876,7 +1877,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "49593c0ab7bb679a83983917dac278d0"
+      "17a22605d33b4d1fc3410a2d6eba914a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264''",
@@ -1885,7 +1886,7 @@
       0,
       [ "@query" ],
       0,
-      "8cde76671e4ee6f755bafd1e524b7f7c"
+      "e167ebaf4be7a136c01e0f809133d4ac"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264''",
@@ -1898,7 +1899,7 @@
         "primitive_Prims.op_Multiply", "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "a455f9f08309bc82423a168133cd8bd4"
+      "598c19e00355b80e91e902a105a398cd"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264'",
@@ -1907,7 +1908,7 @@
       0,
       [ "@query" ],
       0,
-      "cb89b38d235e8f9acbfd17ea038a0ffc"
+      "e6a464bead87b0ce639160e29a164dfc"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264'",
@@ -1925,7 +1926,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "a9febdae74e02170ba3007f537a8942c"
+      "b03c5131c3363d9ddb0868599c11636d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_aux_0",
@@ -1942,7 +1943,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "77689eaae9cac4cc4bd8af26b4547499"
+      "d85a668881b5be9949252b305378be12"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_small",
@@ -1954,7 +1955,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "506d51e8140b5895f7f6043792494d72"
+      "e14e95d0a7a573f7f43a36363375f906"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.aux_nat_over_pos",
@@ -1969,7 +1970,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "cd27018fdee9ef8ada22cc01d25e0644"
+      "760027c4313122fe41a3f4611f795d63"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.aux_nat_plus_nat",
@@ -1982,7 +1983,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "6edf9854b7cf7c96a75cfefbebeb639a"
+      "e20ffe6482a5016d60e18643330d46e9"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_small",
@@ -2001,7 +2002,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "4fbf9d15b697b5ea9a1a891341d81f67"
+      "c7fb31ccdd90d3b3f7d2cfeeabcbcb6a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_",
@@ -2015,7 +2016,7 @@
         "refinement_interpretation_Tm_refine_0766302b68bb44ab7aff8c4d8be0b46f"
       ],
       0,
-      "ea823246671bef4632df2babf166ba16"
+      "45a2dc52f64eab76fa219efd3c4c0a1b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mod_264_",
@@ -2035,7 +2036,7 @@
         "typing_Hacl.Spec.BignumQ.Definitions.pow56"
       ],
       0,
-      "27ec456858a5de6bc318314999dc0027"
+      "77d9113956be63477fbefa318be9fa91"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_mul_5_low_264",
@@ -2052,7 +2053,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "3d636dfa11b5dff15380ebd0afee3be4"
+      "13e8eb8e01d1039b31b6bf8bf951c7f8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_optimized_barrett_reduce",
@@ -2070,7 +2071,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "4d6b47630d23fdf08cd554a3bcc25f3b"
+      "d9444c7bdc146da12a64d2dc243cfc6e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_optimized_barrett_reduce",
@@ -2086,7 +2087,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "df20a0bdf333c565a8cb3829ed8f076c"
+      "bfb57209c5e611b940a0ea1753a6b1ea"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_optimized_barrett_reduce2",
@@ -2104,7 +2105,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "a191edf8bac21dcccf056591a55c1c66"
+      "320db81a4beaff238dbbf74c473b23f4"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_optimized_barrett_reduce2",
@@ -2120,7 +2121,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "e2ed9b05c984bd96d2a9afba38eee9be"
+      "f8c5f0d6b729dfaea038ca71637cd024"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_0",
@@ -2139,7 +2140,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "eb26246cc2fedbfbe98230c3193a36b5"
+      "b6f6e76c8f442a3c41f5ccc093a68867"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_1",
@@ -2161,7 +2162,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "b7d2b814b1210b195dce65b4b451447d"
+      "18c34d284a7dc2f00ed9ebf42ff8ed46"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2180,7 +2181,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "cbc2cf28ca3da79993a57bf999dea6fd"
+      "d65e2f75ad0d702c18514aba71e248ea"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce''",
@@ -2208,7 +2209,7 @@
         "typing_Prims.pow2"
       ],
       0,
-      "439de6b66ba52ce743aa9d7ee62db31d"
+      "0b24609bdc741aaa95cf85545c0c6f05"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.aux",
@@ -2225,7 +2226,7 @@
         "unit_inversion"
       ],
       0,
-      "10ae1f81d4369c9d2dfb5990cdd82076"
+      "d249106338601e94178d8df84ca56e5c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2237,7 +2238,7 @@
         "refinement_interpretation_Tm_refine_81271a48d07acb5ba752006cd7d3fea3"
       ],
       0,
-      "a689ab4a9d64fad3116efc3ac34f56a1"
+      "9a8e2846c8bae6aca8bd8e10e7f3759e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2249,7 +2250,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "2d27de9bd3112bcd4ae1f19429e3584d"
+      "dfdc3187583380b46c4188d0d5e7f068"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2261,7 +2262,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "a1c6ab03646495be2bac6e0bfeca1595"
+      "591525b3ffc6fcad65d9d03d20624a43"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2279,7 +2280,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "e7fafbf47c44ea068116f7de06966e68"
+      "c3e2bdbfdf65d0ff1e3891f3b0401f14"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2292,7 +2293,7 @@
         "refinement_interpretation_Tm_refine_996d5dadf599d2d5bd213cf82c3b8f53"
       ],
       0,
-      "5e33245e4f2f812ec1a80330459a0bd6"
+      "403d1b5183c2cd1e0cf8c881d3b3aa54"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2304,7 +2305,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "2835b7032c48ac5ddcbaa0f5598886c9"
+      "7d68a767a3506a095be69d243a8861b5"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2316,7 +2317,7 @@
         "refinement_interpretation_Tm_refine_db9d50d9885e30fdfb618b817d29862c"
       ],
       0,
-      "51fb276b5b1a3a463106f2127fa72c73"
+      "2507f88a62bec658ff8d73f15e5895b8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2334,7 +2335,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "b6de66180090bf6283581e2b3f7eb8d6"
+      "4f583e817ffd93da836e783265a1a20d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2346,7 +2347,7 @@
         "refinement_interpretation_Tm_refine_db9d50d9885e30fdfb618b817d29862c"
       ],
       0,
-      "ac37c8f4b33501c55800154743faf895"
+      "bea7a8e45fe0559ebb1f71d50169df30"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2364,7 +2365,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "6f7b0a9860a66500b970f4a61821b5a0"
+      "c025c150fb5845a9a3afdcefddbd8939"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2376,7 +2377,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "7512802c7f036c8d01afc471d0d4f739"
+      "d5b438804e137d9d9b46b467ac7e1bc0"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2388,7 +2389,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "d2e929db0f77ff8c5475ba881b5f15e4"
+      "3949f4ea82885401b53c466af2d76e69"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2400,7 +2401,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "e942983ab2d19e56aa4a8acb5d309054"
+      "83942234275065dfef94b671b8bfe62c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2413,7 +2414,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "765fc7726f12d760fe03f7a698e3451d"
+      "7869f1d4eb68c80abf9b327b99abc6d4"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2426,7 +2427,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "3288027ab2b99d44553d74a09accf893"
+      "76c2b95a5f6e5e12834c3a33859a79cc"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2439,7 +2440,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "3e2ada5a718baa7a64df9d0985fd8b99"
+      "c891ee34aba241f547b86589c1e2f038"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2451,7 +2452,7 @@
         "refinement_interpretation_Tm_refine_b050910680c8946f67de48d8041d93f1"
       ],
       0,
-      "76fe6590079344db6913a1b305998b21"
+      "3b2f24f79f010e8ae3c6bc8793a26120"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2463,7 +2464,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "a03bec6de01573b40437df5d2da115a1"
+      "f285babd22e9d8e35bb96c93a410a118"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2476,7 +2477,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "d09a66cce68b174b6058f5d9e6c9c9cb"
+      "ee8c555f5db126c217271e4c4da58633"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2488,7 +2489,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "2e2b8aca1694a551dddb7872df0d043a"
+      "9c8399a3e452af33502b9cabd3fd217d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2500,7 +2501,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "aa321c23a5b4ec7de3c3a782b9b52a54"
+      "74c0d0d68ab189814d77413f18cb7353"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2513,7 +2514,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "78b898a3881b7bd60c1943b8ea9927af"
+      "abaeba324cfe42a4106936b2c19fb8d3"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2525,7 +2526,7 @@
         "refinement_interpretation_Tm_refine_b050910680c8946f67de48d8041d93f1"
       ],
       0,
-      "12903483ce68d7033d056d4eebcb8ce0"
+      "1edfa72716108c675706307bbf1e09bf"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2537,7 +2538,7 @@
         "refinement_interpretation_Tm_refine_b050910680c8946f67de48d8041d93f1"
       ],
       0,
-      "9411a9340b448668ccef6c4c9ba9d4f8"
+      "2d62b32b6ef9eba07feaf9ff48c0e2e4"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2550,7 +2551,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "5e14e00ea48edafdabda010850519a5c"
+      "23277213b6f558cfc056d5c60f8166ab"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2562,7 +2563,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "6145c5010cbb7a88062565325fa14a07"
+      "ddaed7d3ceeb21ea0337f87da1ba553a"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2574,7 +2575,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "b87e154cacc111410c135343254163ed"
+      "bea5097acc58338f394a64e76901deb0"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2587,7 +2588,7 @@
         "refinement_interpretation_Tm_refine_b0d5914b0f246637242175f248a1c2e8"
       ],
       0,
-      "01348a417dc9906f07f45ffd34760273"
+      "1e509ebaa2df840090cff21334e323a7"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2600,7 +2601,7 @@
         "refinement_interpretation_Tm_refine_823fd9a5da393e331f4ad3b21efb8cf3"
       ],
       0,
-      "2c5e39c89f7ff47f555e9a7bd0f9263a"
+      "5406b62be7e7ce9f34f7ac956bc5989b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2615,7 +2616,7 @@
         "refinement_interpretation_Tm_refine_81271a48d07acb5ba752006cd7d3fea3"
       ],
       0,
-      "9dfc4f7f06350e7874933dec09c8b51c"
+      "011209d3a826bcab1aad90435e1470f4"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2627,7 +2628,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "0044e4a4bdb814edd95b1ac0c42b4298"
+      "2ae0e341b7bcafb117b90e8d8962ec70"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2641,7 +2642,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "da11cbf594c54f041284f72a7ad35680"
+      "683efb0400882a58f64974552ffd5bdf"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2654,7 +2655,7 @@
         "refinement_interpretation_Tm_refine_996d5dadf599d2d5bd213cf82c3b8f53"
       ],
       0,
-      "ed5cea4235127781992b38a410ab8925"
+      "136ed42184050c655a39c230c7c4935b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2667,7 +2668,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "f51fb794f6fe42aa80ce53b0894916bd"
+      "66e577f829fa3eef89f5a8ddaf0359a8"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2680,7 +2681,7 @@
         "refinement_interpretation_Tm_refine_771d038428fa6b161f1cf37127fbb632"
       ],
       0,
-      "c4caf49d6f8d581fd721925eaeaccdd1"
+      "1916fb14e0e36fd44d027e9e91ae600d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2693,7 +2694,7 @@
         "refinement_interpretation_Tm_refine_996d5dadf599d2d5bd213cf82c3b8f53"
       ],
       0,
-      "776e1344daa7670f65c8c4248bbd7287"
+      "d8ac7f5b713992e63775df34cab0d076"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2706,7 +2707,7 @@
         "refinement_interpretation_Tm_refine_996d5dadf599d2d5bd213cf82c3b8f53"
       ],
       0,
-      "005f18ba414b89414c8d185b6efa9ba0"
+      "fbbaadfca31383debd93ccd8ee4efb04"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2719,7 +2720,7 @@
         "refinement_interpretation_Tm_refine_771d038428fa6b161f1cf37127fbb632"
       ],
       0,
-      "e168980bb0d85f3356924f4111a57aa8"
+      "d3196aa05800e653170a1c642a3c8ea7"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2732,7 +2733,7 @@
         "refinement_interpretation_Tm_refine_996d5dadf599d2d5bd213cf82c3b8f53"
       ],
       0,
-      "b23cdf751aab6d9a66e55e5b0770ac26"
+      "caa34aacb1476e6fe2e14daf68378426"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2744,7 +2745,7 @@
         "primitive_Prims.op_LessThan", "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "a489d6ec02488529906fe6a466ad80fc"
+      "01b8b023b0c428c236ed257cd74c274e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2757,7 +2758,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "b8686398b328ee2deaa3c74bd2d08f55"
+      "d5cfa03a58b84d5841bfe5aef763716c"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2769,7 +2770,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "277840bdbb7bc87f55225cc4efc054f3"
+      "d02337aa55a4e3c0c728f25188e0882b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2781,7 +2782,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "89097fdc52f0cec88d7cc9c4fa1ae1c9"
+      "685ecb76b1fd6926eb61356279efbf1b"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2806,7 +2807,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "0c73735daae8c4ffac521f230b61f19f"
+      "07f23bc3b1226cc0168ac58942c293ee"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2830,7 +2831,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "e0e36f1a67333a3078207a33b06dae59"
+      "4a75cb345cecbb373afe28f2a5d0748d"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2846,13 +2847,13 @@
         "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_0d5380140a0fe03327143220ac54a1f1",
+        "refinement_interpretation_Tm_refine_4d5134b009ebbbcb57e96a76281d0ae2",
         "refinement_interpretation_Tm_refine_4f48cfaf867bbb5d2b09a223aa538c2b",
         "refinement_interpretation_Tm_refine_81271a48d07acb5ba752006cd7d3fea3",
         "refinement_interpretation_Tm_refine_f94db0c9021bb403d705c7e49709cdf3"
       ],
       0,
-      "fd4febaca8ce7d2809e7874f7534c244"
+      "aa5ea86d206ce76503a678770e74a07e"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2865,7 +2866,7 @@
         "refinement_interpretation_Tm_refine_322b64473d40014e83d15d0545b657af"
       ],
       0,
-      "27193c8003a26ce96c5c19b143ac0e6e"
+      "09f226901742d56b7b3af91de5baecfa"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2885,7 +2886,7 @@
         "refinement_interpretation_Tm_refine_81271a48d07acb5ba752006cd7d3fea3"
       ],
       0,
-      "e2565b91d80dccd0ee1cc96815a59c24"
+      "ec5be65c4bd856065f022f707d2e7eb3"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2910,7 +2911,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "93d1a9d9283bb639c5d444a3a4f127ab"
+      "17336e35f6e109930af6129891d21be5"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2922,7 +2923,7 @@
         "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "fe545ffa6e8dba82701675a13d9c1fd4"
+      "26184a2577c73fd26a5b122e68c2fff7"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2934,17 +2935,18 @@
         "equation_Spec.Ed25519.q", "int_inversion",
         "primitive_Prims.op_Equality",
         "primitive_Prims.op_GreaterThanOrEqual",
-        "primitive_Prims.op_LessThan", "primitive_Prims.op_Subtraction",
+        "primitive_Prims.op_LessThan", "primitive_Prims.op_Multiply",
+        "primitive_Prims.op_Subtraction",
         "projection_inverse_BoxBool_proj_0",
         "projection_inverse_BoxInt_proj_0",
-        "refinement_interpretation_Tm_refine_0d5380140a0fe03327143220ac54a1f1",
         "refinement_interpretation_Tm_refine_322b64473d40014e83d15d0545b657af",
+        "refinement_interpretation_Tm_refine_4d5134b009ebbbcb57e96a76281d0ae2",
         "refinement_interpretation_Tm_refine_6e9dbbcd42c310e3386beb3c86912900",
         "refinement_interpretation_Tm_refine_81271a48d07acb5ba752006cd7d3fea3",
         "refinement_interpretation_Tm_refine_f94db0c9021bb403d705c7e49709cdf3"
       ],
       0,
-      "69f57bc32804a6e8cfdeb5b16acd8156"
+      "7c5aafd1c15d99dbba3f3908c5ade720"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2969,7 +2971,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "834b57e7748da53cebd875208c23c425"
+      "a4d2be7fb3ae17f8ce656dda80cfe664"
     ],
     [
       "Hacl.Spec.BignumQ.Lemmas.lemma_barrett_reduce'",
@@ -2990,7 +2992,7 @@
         "refinement_interpretation_Tm_refine_ffd0c5340ae953c83a5f54ff2e5d47b3"
       ],
       0,
-      "14d8541f27eadda6f8031e677b9d776f"
+      "8e2da2568e6629222d7f67b62233b0d7"
     ]
   ]
 ]

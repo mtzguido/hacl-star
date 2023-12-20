@@ -17,7 +17,7 @@
         "typing_Spec.Poly1305.prime"
       ],
       0,
-      "2f78911d3c9576b8fb87de9bef3cca07"
+      "c72e1ce5d74fc53609b67627e6cac8cb"
     ],
     [
       "Spec.Poly1305.fmul",
@@ -35,7 +35,7 @@
         "typing_Spec.Poly1305.prime"
       ],
       0,
-      "2003412d5126f20b258b88c4d8a1036a"
+      "bd64354af0dc0574354b3ee1774c94b0"
     ],
     [
       "Spec.Poly1305.zero",
@@ -49,7 +49,7 @@
         "typing_Spec.Poly1305.prime"
       ],
       0,
-      "ae803fd2e39124a6e4d5ba9636db74a1"
+      "047cdf515ff9e87edf98f530752b7f21"
     ],
     [
       "Spec.Poly1305.size_block",
@@ -64,7 +64,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "b0e5167bb6a19fa110763730205d788b"
+      "c7d506f845b8d1771b6e2ed58a2ec4a6"
     ],
     [
       "Spec.Poly1305.size_key",
@@ -79,7 +79,7 @@
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2"
       ],
       0,
-      "f8926cb6292bf223b5a17976a653be2a"
+      "ee34dd2f33b672711924bbc9f6786c2e"
     ],
     [
       "Spec.Poly1305.poly1305_encode_r",
@@ -114,7 +114,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "9e59d1056da4f222fbb52923faa207c2"
+      "94e24c7c519248b375c6ec30e9bfdfd0"
     ],
     [
       "Spec.Poly1305.poly1305_init",
@@ -131,7 +131,7 @@
         "typing_Spec.Poly1305.size_block", "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "4bc61258aecb0b4565c4678d2f625ab1"
+      "b6adfdd8b543fe6bfba63670bd5b6b66"
     ],
     [
       "Spec.Poly1305.encode",
@@ -158,7 +158,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok"
       ],
       0,
-      "89516fe0708326926b6e06b1f5e26d11"
+      "ef03eaef7b80cc6c6e7245d7990707fd"
     ],
     [
       "Spec.Poly1305.poly1305_finish",
@@ -180,7 +180,7 @@
         "typing_Spec.Poly1305.size_block", "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "1f5bb5935b13ef877a499239f6a32355"
+      "cd2933b45451dee983c4aae3586c0cc9"
     ],
     [
       "Spec.Poly1305.poly1305_update_last",
@@ -189,7 +189,7 @@
       0,
       [ "@query", "equation_Spec.Poly1305.size_block" ],
       0,
-      "e8411ec2c852ffb9ec3d877577681e0c"
+      "77c0366bda70efe2e1cd21dc0bc751ff"
     ],
     [
       "Spec.Poly1305.poly1305_update",
@@ -205,7 +205,7 @@
         "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "c0e937f2cde5e88c722be4c71b927659"
+      "db7f1b51e4911134d23bd8f9345ebd57"
     ]
   ]
 ]

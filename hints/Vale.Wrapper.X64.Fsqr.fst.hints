@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "ecdeea3698f1c674ccf940bb64d72e9e"
+      "e6a28fa5d404f3dfffdf029e01138fa9"
     ],
     [
       "Vale.Wrapper.X64.Fsqr.fsqr_e",
@@ -153,7 +153,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "c47c75878355fea5d60492407ab295db"
+      "e03ad1f5a28c08e65f988fa032fae2de"
     ],
     [
       "Vale.Wrapper.X64.Fsqr.fsqr2_e",
@@ -186,7 +186,7 @@
         "typing_LowStar.Monotonic.Buffer.len"
       ],
       0,
-      "7805be16be0123bb513e539044892669"
+      "9868c481b96fc8cd4e68b4d103caa622"
     ],
     [
       "Vale.Wrapper.X64.Fsqr.fsqr2_e",
@@ -291,6 +291,7 @@
         "proj_equation_Vale.Arch.HeapImpl.Mkvale_full_heap_vf_heap",
         "proj_equation_Vale.Arch.HeapImpl.Mkvale_full_heap_vf_heaplets",
         "proj_equation_Vale.Arch.HeapImpl.Mkvale_full_heap_vf_layout",
+        "proj_equation_Vale.Interop.Heap_s.InteropHeap_hs",
         "proj_equation_Vale.Interop.X64.Rel_of_arg",
         "proj_equation_Vale.X64.State.Mkvale_state_vs_flags",
         "proj_equation_Vale.X64.State.Mkvale_state_vs_heap",
@@ -317,6 +318,7 @@
         "refinement_interpretation_Tm_refine_35a0739c434508f48d0bb1d5cd5df9e8",
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
+        "refinement_interpretation_Tm_refine_76e59c7a065e37ed8356ffe7fa5f9837",
         "refinement_interpretation_Tm_refine_80b5649c8838446979f18726fa543ad1",
         "refinement_interpretation_Tm_refine_83bd940927020bb51199658f6752ed80",
         "refinement_interpretation_Tm_refine_8545a50511781623fc41e3fb8428bce0",
@@ -342,6 +344,7 @@
         "typing_Vale.Arch.HeapImpl.__proj__Mkvale_full_heap__item__vf_heaplets",
         "typing_Vale.Arch.HeapImpl.__proj__Mkvale_full_heap__item__vf_layout",
         "typing_Vale.Interop.Assumptions.win",
+        "typing_Vale.Interop.Heap_s.__proj__InteropHeap__item__hs",
         "typing_Vale.Interop.Types.base_typ_as_type",
         "typing_Vale.Interop.Types.down_view",
         "typing_Vale.Interop.X64.max_stdcall", "typing_Vale.Lib.Map16.sel",
@@ -357,7 +360,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt64@tok"
       ],
       0,
-      "4d4a0d692e3d87010af79e1c7eff86eb"
+      "4c480c4d3288aaf9cf8e206c5e751c1c"
     ]
   ]
 ]

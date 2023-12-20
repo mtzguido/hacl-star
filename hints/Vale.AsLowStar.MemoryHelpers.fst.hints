@@ -1,5 +1,5 @@
 [
-  "kŽÉxž¹ÿöŽE‹À1œC$",
+  "IÅx2\u0013/v\u0007\u001c1\"\t”—ŸÀ",
   [
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_buffer_len",
@@ -19,7 +19,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "9a8cf7cd6b8d9e4d6e35b6a8873424a0"
+      "27a19cd89f98af674cb975189332de7b"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_buffer_len",
@@ -84,7 +84,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "a3f7a848ab8e592dcccbbe83aef5dc58"
+      "b5ed9e2a78ac58dad4abcd0623166a86"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_immbuffer_len",
@@ -104,7 +104,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "93c510af45a41a77dc9c80ab035ca65b"
+      "ac4238c8f02f8f7abc58e6f31ee561b9"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_immbuffer_len",
@@ -170,7 +170,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "d3b9f5d77bb8fcbf8a01dc640def17fd"
+      "6c5c1332a743cbe4a3e2255217310db1"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.state_eq_down_mem",
@@ -206,7 +206,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "6e4103666f17960c6500a74100a5eaa8"
+      "77a0c6d8da68ff46cefde80348221849"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.loc_eq",
@@ -269,7 +269,7 @@
         "typing_Vale.Interop.Base.loc_modified_args"
       ],
       0,
-      "07d3054545ae8204a7fa0fc1bac7e353"
+      "e8a2ecb38c3fad473df845551edbb059"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.relate_modifies",
@@ -282,7 +282,7 @@
         "equation_Vale.X64.MemoryAdapters.as_mem"
       ],
       0,
-      "5372eb3460c9963a63f3e526e44cad26"
+      "0e69c5969b0cbff8e500a6d7d408ed11"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.reveal_readable",
@@ -295,7 +295,7 @@
         "equation_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "7c245e9ae38ad7d56cda4bbb1b45bf60"
+      "1458a1e5c6707d8fb28e9f6e1d7faf20"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.reveal_imm_readable",
@@ -308,7 +308,7 @@
         "equation_Vale.X64.MemoryAdapters.as_vale_immbuffer"
       ],
       0,
-      "8c0b75a43c6621ff60a962bbcfaaaae9"
+      "91cecb0fdc43a926329ade6ef550fd14"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.readable_live",
@@ -336,7 +336,7 @@
         "typing_Vale.X64.MemoryAdapters.as_mem"
       ],
       0,
-      "70b4c58ad1f405a0cab532cbd24f0a8b"
+      "593c5ec8c9382f99797495ff7ba8089c"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.readable_imm_live",
@@ -376,7 +376,7 @@
         "typing_Vale.X64.MemoryAdapters.as_mem"
       ],
       0,
-      "526cde395c82f9b1922aa1ac8b015c2e"
+      "ee3f2685a200f31d64c6b2b91ca9ecc1"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_readable_reveal",
@@ -404,7 +404,7 @@
         "typing_Vale.Interop.Base.mk_mem"
       ],
       0,
-      "6d6813e1a942a7c0d0e3b4b3e10bac38"
+      "594743d0c4558a028028a3f49a428dc8"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.lemma_as_mem_as_vale_mem",
@@ -428,7 +428,7 @@
         "projection_inverse_Vale.Arch.HeapImpl.ValeHeap_ih"
       ],
       0,
-      "cc37dbca940bdf58b08187631458282d"
+      "b681a6ebe2e68003f9127500ebdd8aac"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.mk_stack_reveal",
@@ -437,7 +437,7 @@
       0,
       [ "@query" ],
       0,
-      "b01d890d07e4be53360eb8e1726e15f4"
+      "e6462620d52eeaa6222bedd1b6d42496"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.mk_stack_reveal",
@@ -453,7 +453,7 @@
         "fuel_guarded_inversion_Vale.X64.Machine_Semantics_s.machine_stack"
       ],
       0,
-      "bcae9932415dd308b7841637c7bc6627"
+      "d5160030002e3fd1ea77245eca37a69d"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_reveal",
@@ -491,7 +491,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "59e1b22a97dad9c358949f0a36f38241"
+      "9d5e5e2201c1ab580b896abef5568a45"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_reveal",
@@ -602,7 +602,7 @@
         "typing_Vale.X64.MemoryAdapters.create_initial_vale_heap"
       ],
       0,
-      "5a8cb7b044a75627fe4be6c58cd42e5f"
+      "c5074f06e93cce04b364633cd72efd47"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_as_seq_reveal",
@@ -649,7 +649,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "334683c7fea4f35286f5aaecd7eb1158"
+      "4a099faf182725ec16eb6c4d8f13a75f"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_as_seq_reveal",
@@ -772,7 +772,7 @@
         "typing_Vale.X64.MemoryAdapters.create_initial_vale_heap"
       ],
       0,
-      "b0a0ba0aad207edd0dfe72e94925f5e7"
+      "6595fe40bac05ed54d95e1e82d993ea2"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_reveal2",
@@ -810,7 +810,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "a7d7ff0c4d006c9d4bd737b2689fbdd1"
+      "00609248e5ea9dfed02f4da78033d4b1"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_reveal2",
@@ -910,7 +910,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "225e4fb446abcbb24fd347019d0550b5"
+      "35d9258037faeb30fcf40964fe302069"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_as_seq_reveal2",
@@ -956,7 +956,7 @@
         "typing_Vale.X64.Memory.uint_view"
       ],
       0,
-      "3fe416b23aa668d718d397e8d6f26407"
+      "e3db9d8367910450a011bac4b68a463f"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_as_seq_reveal2",
@@ -1069,7 +1069,7 @@
         "typing_Vale.X64.State.__proj__Mkvale_state__item__vs_heap"
       ],
       0,
-      "18ee5fc8d6c9741fc4b9466efc18981c"
+      "444464bdf93f433af9de337cac800998"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_addr_reveal",
@@ -1094,7 +1094,7 @@
         "typing_Vale.Interop.Base.mk_mem"
       ],
       0,
-      "567b6be99a778f45f8e312c1885757a3"
+      "951894a15dac2feada936afa838191e3"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_addr_reveal",
@@ -1119,7 +1119,7 @@
         "typing_Vale.Interop.Base.mk_mem"
       ],
       0,
-      "a0798e5713b740cfa9c0b8d93246c2ef"
+      "c9b3bec5ceddf962fafbabac4ece2fd5"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.fuel_eq",
@@ -1128,7 +1128,7 @@
       0,
       [ "@query", "equation_Vale.X64.Decls.va_fuel" ],
       0,
-      "c69c8a2f2dc20450bbf8e6495892dd73"
+      "b6eddcccf57205ff3f6c573fe27d93a3"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.decls_eval_code_reveal",
@@ -1137,7 +1137,7 @@
       0,
       [ "@query", "equation_Vale.X64.Decls.va_fuel" ],
       0,
-      "a5f2096a147ecc90f403cb9f558a90c4"
+      "5c858fa5e15a192bbcaaafad3731a083"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.decls_eval_code_reveal",
@@ -1150,7 +1150,7 @@
         "equation_Vale.X64.Decls.va_fuel"
       ],
       0,
-      "0c936a251afad639c416f8af170b2fa9"
+      "6b8c9342483451ea3c71f76ca0df332e"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_buffer_disjoint",
@@ -1172,7 +1172,7 @@
         "projection_inverse_Vale.Interop.Types.Buffer_writeable"
       ],
       0,
-      "fc412d821356db4d5dd2620aa4a35878"
+      "e8c13a00f83965f9bd9e89678eb49558"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_buffer_imm_disjoint",
@@ -1197,7 +1197,7 @@
         "projection_inverse_Vale.Interop.Types.Buffer_writeable"
       ],
       0,
-      "c913995ebce603f4018220d493872153"
+      "b890daea2027cd9a2932873b54f3bfff"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.as_vale_immbuffer_imm_disjoint",
@@ -1243,7 +1243,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_immbuffer"
       ],
       0,
-      "fcca206446eed0b2ff3b4753652dd958"
+      "f56730213415510ddf9a92f39bc2ff11"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.modifies_same_roots",
@@ -1252,7 +1252,7 @@
       0,
       [ "@query" ],
       0,
-      "5d5c6dc19d91d151aa4f9daa5987be1d"
+      "c3d5a3299428ded3dc92521ac28bed2b"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.modifies_same_roots",
@@ -1265,7 +1265,7 @@
         "equation_Vale.X64.MemoryAdapters.as_mem"
       ],
       0,
-      "b7bf828cae591f1c88acd2e5b1771b4e"
+      "42749591ffce1dbe979c860dbff6750e"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.modifies_equal_domains",
@@ -1278,7 +1278,7 @@
         "equation_Vale.X64.MemoryAdapters.as_mem"
       ],
       0,
-      "6a2afc7b8682265e00683a5810f30bcd"
+      "928ae95978b5eb6713a87b1fb7e76a86"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.loc_disjoint_sym",
@@ -1291,7 +1291,7 @@
         "lemma_LowStar.Monotonic.Buffer.loc_disjoint_sym_"
       ],
       0,
-      "440a92c06fa46ded846e276c819b89e7"
+      "acace2d39df49175e40daf93ebd99544"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.core_create_lemma_taint_hyp",
@@ -1392,7 +1392,7 @@
         "typing_Vale.Interop.X64.taint_of_arg"
       ],
       0,
-      "7bdbbcaabe229354b8cbd0b1d7593f62"
+      "fc94f47d36312bb589be130da89165fd"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_writeable_reveal",
@@ -1408,7 +1408,7 @@
         "projection_inverse_Vale.Interop.Types.Buffer_writeable"
       ],
       0,
-      "aa52b08386c51198d86767ab2bd0d2ac"
+      "633983417ad5b612ff195cb6b8d48d72"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.low_buffer_read",
@@ -1468,7 +1468,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "996a5b47145838225a99165fc3a31262"
+      "293d4649e9c5e3e5816eb55b47714aeb"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.low_buffer_read",
@@ -1528,7 +1528,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "8fa76ff582bd60d18da6fccbadd5a7c3"
+      "593d6f20c4561a62703ab3c6a103ebd0"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_read_reveal",
@@ -1569,7 +1569,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "35b3d1ea932543f8e071d4f5eda30bbd"
+      "9f428986706dffe02a3967f620b7d8a8"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_read_reveal",
@@ -1667,7 +1667,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "80003c984dfed935c846fd812926001e"
+      "1ee06c7b203fa690d647be47d05d8b24"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_read_reveal",
@@ -1765,7 +1765,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "153d59e90940ddc0527a39f41d69b614"
+      "8c55153c671d4161722c43e755c50ed8"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.imm_low_buffer_read",
@@ -1825,7 +1825,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "2bbbd74bee5d912358acc05ad59e5933"
+      "113cc91012f74bac4991d9b61769ad2f"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.imm_low_buffer_read",
@@ -1885,7 +1885,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "151dc1e0b1a8b3792a584eca61fbc9c1"
+      "e25e3a4671ba94c5d03622106a5a5aa4"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.imm_buffer_read_reveal",
@@ -1939,7 +1939,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_immbuffer"
       ],
       0,
-      "2599787f53299dbe9aa3e2ccfd37ae91"
+      "092da8901f33aa7a539330d1ecfbbdc5"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.imm_buffer_read_reveal",
@@ -2047,7 +2047,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_immbuffer"
       ],
       0,
-      "57c419d9bed7767421d00ad9a5f20469"
+      "7a3e6ce3f8c61ce8c91f68e01428d592"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.imm_buffer_read_reveal",
@@ -2155,7 +2155,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_immbuffer"
       ],
       0,
-      "741646cb906e2329fcc149f5e6f30ee8"
+      "6914b0ad5d28499e093b47d26f56885d"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_invert",
@@ -2195,7 +2195,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "d1d2343639f291db92b33bb1b6ca27a7"
+      "7e1cedea8d1473140cf49a78077790f3"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_invert",
@@ -2297,7 +2297,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt8@tok"
       ],
       0,
-      "5e1e37703456fb3ceef66df089e4fc64"
+      "d21351a6be98c6e9f7eb3874d6fbf689"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.buffer_as_seq_reveal_tuint128",
@@ -2339,7 +2339,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "bc04f2d1f4bf38ec9cb03f0fa07fd1e1"
+      "2d883c146e1e3323ba5c145af950d7bd"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.immbuffer_as_seq_reveal_tuint128",
@@ -2382,7 +2382,7 @@
         "typing_tok_Vale.Arch.HeapTypes_s.TUInt128@tok"
       ],
       0,
-      "d0b885e4738820ab39fb16a5c36733f5"
+      "bc3ba980849457b094f3db14514cf6e8"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.bounded_buffer_addrs_one",
@@ -2417,7 +2417,7 @@
         "typing_Vale.Interop.Heap_s.__proj__InteropHeap__item__addrs"
       ],
       0,
-      "74a13c1c73d330eb6ed8d8cea0bdd305"
+      "2d783638d3fdffc10d75d226aae87885"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.bounded_buffer_addrs_all",
@@ -2449,7 +2449,7 @@
         "typing_Vale.Interop.Heap_s.__proj__InteropHeap__item__addrs"
       ],
       0,
-      "850097bc57706b822c9d8254e4f473fd"
+      "feacd118ef64104b2bd35f490b9c41bc"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_down_up_buffer_length",
@@ -2466,7 +2466,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "d879309addfa35b69aae55ecb5b3f8de"
+      "3b5634c6728741a7ba0f975b03ec53d1"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_down_up_buffer_length",
@@ -2507,7 +2507,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "baa63a63afe5880ad541b64f9109e2cd"
+      "35ea491f4040eebd099fd714727b069e"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.down_up_buffer_read_reveal",
@@ -2556,7 +2556,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "693ccc3620df5a1c4caab7ddf5b0d5dd"
+      "77914df3d11159d32e1d71c95a9da334"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.down_up_buffer_read_reveal",
@@ -2659,10 +2659,10 @@
         "refinement_interpretation_Tm_refine_f92fcc917a4eb57990ada4a742c42c58",
         "token_correspondence_LowStar.BufferView.Down.__proj__View__item__put",
         "token_correspondence_LowStar.BufferView.Up.__proj__View__item__get",
-        "typing_FStar.Seq.Base.index", "typing_FStar.Seq.Base.length",
-        "typing_FStar.Seq.Base.slice", "typing_FStar.UInt8.t",
-        "typing_LowStar.Buffer.trivial_preorder",
+        "typing_FStar.Seq.Base.index", "typing_FStar.Seq.Base.slice",
+        "typing_FStar.UInt8.t", "typing_LowStar.Buffer.trivial_preorder",
         "typing_LowStar.BufferView.Down.as_seq",
+        "typing_LowStar.BufferView.Down.length",
         "typing_LowStar.Monotonic.Buffer.as_seq",
         "typing_Vale.AsLowStar.LowStarSig.view_of_base_typ",
         "typing_Vale.Interop.Base.mut_to_b8",
@@ -2674,7 +2674,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "61d582a9c20b53cece2250218875e103"
+      "40144f329754404c35fd5ce871f8b2e7"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.down_up_buffer_read_reveal",
@@ -2791,7 +2791,7 @@
         "typing_Vale.X64.MemoryAdapters.as_vale_buffer"
       ],
       0,
-      "1f0fadf141f53fef1ec838be5988b8d5"
+      "04eec178c09cedd976a4fe77ad597a06"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_buffer_same_upviews",
@@ -2844,7 +2844,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "524adbfebdbbb59cdb89420a4cdcc1c0"
+      "62839d100f452d8c5f770c0f08ae75d4"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_buffer_same_upviews",
@@ -2906,7 +2906,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "6607c8a5de226255d72e54e2142b390a"
+      "db24b4c12c97096a23d2cc6147a283da"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_immbuffer_same_upviews",
@@ -2960,7 +2960,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "f047bd7a2eab67d86e421d9412a8274b"
+      "115ea6c948366b431ca7d19c6b66487a"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.same_immbuffer_same_upviews",
@@ -3023,7 +3023,7 @@
         "typing_Vale.Interop.Types.down_view"
       ],
       0,
-      "a93a5bf091d2808cef841f359ff4e1f1"
+      "dcfea9c12264825483b69cd51a2e647e"
     ],
     [
       "Vale.AsLowStar.MemoryHelpers.lemma_valid_layout_buffer_id",
@@ -3040,7 +3040,7 @@
         "projection_inverse_FStar.Pervasives.Native.None_a", "true_interp"
       ],
       0,
-      "b2ce4db587a5528e9126ca9a3f4fb71e"
+      "6d9cf567fb0fbca125e8125ed3fff452"
     ]
   ]
 ]

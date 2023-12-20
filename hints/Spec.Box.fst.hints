@@ -14,7 +14,7 @@
         "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "0a5044b027d29f1cd3cccb168e2814fd"
+      "d82f62705e799c3ca97391051f7f0885"
     ],
     [
       "Spec.Box.secretkey",
@@ -29,7 +29,7 @@
         "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "df9d28d2b45e6cbc22043da18eaa2d07"
+      "5d89f7a5feb8c4caad1db0d865a17be8"
     ],
     [
       "Spec.Box.ecdh",
@@ -56,7 +56,7 @@
         "typing_Spec.Salsa20.size_nonce"
       ],
       0,
-      "5288089708a5bd71fd23b378d7ec4739"
+      "cf93578f978a4e8e8ef59e6226ff5e89"
     ],
     [
       "Spec.Box.box_beforenm",
@@ -76,18 +76,21 @@
         "equation_Spec.Box.secretkey", "equation_Spec.Box.size_secretkey",
         "equation_Spec.Curve25519.one", "equation_Spec.Curve25519.scalar",
         "equation_Spec.Poly1305.size_block",
+        "equation_Spec.Poly1305.size_key",
         "equation_Spec.Salsa20.size_nonce",
-        "function_token_typing_Spec.Curve25519.scalar",
-        "lemma_FStar.Pervasives.invertOption",
+        "function_token_typing_Spec.Curve25519.scalar", "int_typing",
+        "lemma_FStar.Pervasives.invertOption", "lemma_Lib.IntTypes.pow2_3",
         "primitive_Prims.op_Subtraction", "projection_inverse_BoxInt_proj_0",
         "refinement_interpretation_Tm_refine_542f9d4f129664613f2483a6c88bc7c2",
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_c8dd98bb91cb1ba6963e5299b3babaa4",
+        "token_correspondence_Prims.pow2.fuel_instrumented",
         "typing_Prims.pow2", "typing_Spec.Box.ecdh",
-        "typing_Spec.Poly1305.size_block", "typing_Spec.Salsa20.size_nonce"
+        "typing_Spec.Poly1305.size_block", "typing_Spec.Poly1305.size_key",
+        "typing_Spec.Salsa20.size_nonce"
       ],
       0,
-      "656117ee0c38246ae10166f0bf05d761"
+      "adf2e4599cd481fda8d70dc38c78040f"
     ],
     [
       "Spec.Box.box_detached_afternm",
@@ -101,7 +104,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "f728bd94a0bbdee28feae6b76549cbac"
+      "498fad6b3b4ba466900e0d4481e63176"
     ],
     [
       "Spec.Box.box_detached_afternm",
@@ -113,7 +116,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "31ab41959ef89c3cbedab89914646210"
+      "80a38b241091fec970213b5213a9e708"
     ],
     [
       "Spec.Box.box_detached",
@@ -135,7 +138,7 @@
         "typing_Spec.Box.box_beforenm"
       ],
       0,
-      "e0483ebffaa427d83833983a0e6ab5a3"
+      "a24a05e330d5a44c985674fe6905b340"
     ],
     [
       "Spec.Box.box_detached",
@@ -147,7 +150,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "d7b929519556b43b48d6b0fa48ab6121"
+      "fa545ec7a8de67fa81131a0afd91d3ed"
     ],
     [
       "Spec.Box.box_open_detached_afternm",
@@ -161,7 +164,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "fdb0e1740996ea98ecea526389924f5e"
+      "9579b1f7cac29997560e40aaa2d17f03"
     ],
     [
       "Spec.Box.box_open_detached_afternm",
@@ -173,7 +176,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "71a8b84ae934b87e6ca5d45229b414f5"
+      "d0c94c8e4c29a5bbcdc172b060b55c2c"
     ],
     [
       "Spec.Box.box_open_detached",
@@ -195,7 +198,7 @@
         "typing_Spec.Box.box_beforenm"
       ],
       0,
-      "f5152c6eeb50aefca1440939be3d9f0f"
+      "5ea7f5b670bc7e9e6727e618f869bb4d"
     ],
     [
       "Spec.Box.box_open_detached",
@@ -207,7 +210,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "916c0ad31f16ab673f9464a0756dddee"
+      "0ab017cd57b4ee67b313a6193eb6c9e5"
     ],
     [
       "Spec.Box.box_easy_afternm",
@@ -229,7 +232,7 @@
         "refinement_interpretation_Tm_refine_d8d83307254a8900dd20598654272e42"
       ],
       0,
-      "06db7c42e051acfcc644e102b2751383"
+      "f7d67eb75a752a83e22e25b2f0bd1a55"
     ],
     [
       "Spec.Box.box_easy_afternm",
@@ -241,7 +244,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "31ab41959ef89c3cbedab89914646210"
+      "22f61b92d6d9d73d84dd3a490bdb9aca"
     ],
     [
       "Spec.Box.box_easy",
@@ -269,7 +272,7 @@
         "refinement_kinding_Tm_refine_6ea782d20d3a5b4d53411900c5408b2a"
       ],
       0,
-      "627fdc553e4a7686051e858be88f28ef"
+      "670dd13baf6c7ef140ea6eb62a6d44f6"
     ],
     [
       "Spec.Box.box_easy",
@@ -281,7 +284,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "d7b929519556b43b48d6b0fa48ab6121"
+      "187863e49390a78e81381ec9b53d2a69"
     ],
     [
       "Spec.Box.box_open_easy_afternm",
@@ -309,7 +312,7 @@
         "typing_Lib.Sequence.length", "typing_Spec.Poly1305.size_block"
       ],
       0,
-      "6d03d588f59777b17a3d736d74f048be"
+      "3ef4a8982c33cbfa89877278d7a64318"
     ],
     [
       "Spec.Box.box_open_easy_afternm",
@@ -321,7 +324,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "59cde634f2b91b046d611ec97fb9204b"
+      "2c56959ff296d3fbbf8a41cd004f3aad"
     ],
     [
       "Spec.Box.box_open_easy",
@@ -349,7 +352,7 @@
         "typing_Lib.Sequence.length", "typing_Spec.Poly1305.size_block"
       ],
       0,
-      "e99a9c8929514e383521143f95799aac"
+      "220addca16f1ee28bb02a02eb7d0fb05"
     ],
     [
       "Spec.Box.box_open_easy",
@@ -361,7 +364,7 @@
         "projection_inverse_BoxInt_proj_0"
       ],
       0,
-      "419f744acbff58ef6de5a71eb8822d92"
+      "d58587f20cdc00ec193426c857ecd85e"
     ]
   ]
 ]

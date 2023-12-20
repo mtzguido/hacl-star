@@ -15,7 +15,7 @@
         "refinement_interpretation_Tm_refine_414d0a9f578ab0048252f8c8f552b99f"
       ],
       0,
-      "6078ccfd1804b482da124462614b3916"
+      "ce0ffc23a767372a0de50efca8f7ca4e"
     ],
     [
       "Hacl.Impl.K256.PointAdd.point_add_xy_pairs",
@@ -131,7 +131,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "7eb66d49366c6865ecb7db3b20a33b91"
+      "81ef71ec246169d550efb0216cc10211"
     ],
     [
       "Hacl.Impl.K256.PointAdd.ab_plus_cd",
@@ -214,7 +214,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "bc7c801048ae7ce95283d35312ba2de5"
+      "6b55c021632aaa8d109b81aace0c8c2f"
     ],
     [
       "Hacl.Impl.K256.PointAdd.ab_minus_cd",
@@ -225,18 +225,14 @@
         "@MaxIFuel_assumption",
         "@fuel_correspondence_Prims.pow2.fuel_instrumented", "@query",
         "constructor_distinct_Lib.Buffer.MUT",
-        "constructor_distinct_Lib.IntTypes.PUB",
         "constructor_distinct_Lib.IntTypes.S16",
         "constructor_distinct_Lib.IntTypes.S32",
         "constructor_distinct_Lib.IntTypes.S8",
-        "constructor_distinct_Lib.IntTypes.U32",
         "constructor_distinct_Lib.IntTypes.U64",
         "constructor_distinct_Lib.IntTypes.U8",
         "constructor_distinct_Spec.Hash.Definitions.SHA2_256",
         "equality_tok_Lib.Buffer.MUT@tok",
-        "equality_tok_Lib.IntTypes.PUB@tok",
         "equality_tok_Lib.IntTypes.SEC@tok",
-        "equality_tok_Lib.IntTypes.U32@tok",
         "equality_tok_Lib.IntTypes.U64@tok",
         "equation_Hacl.K256.Field.as_felem5",
         "equation_Hacl.K256.Field.as_nat", "equation_Hacl.K256.Field.felem",
@@ -252,23 +248,18 @@
         "equation_Hacl.Spec.K256.Field52.Definitions.max52",
         "equation_Lib.Buffer.as_seq", "equation_Lib.Buffer.buffer_t",
         "equation_Lib.Buffer.disjoint", "equation_Lib.Buffer.eq_or_disjoint",
-        "equation_Lib.Buffer.lbuffer_t", "equation_Lib.Buffer.length",
-        "equation_Lib.Buffer.live", "equation_Lib.Buffer.loc",
-        "equation_Lib.Buffer.modifies",
+        "equation_Lib.Buffer.lbuffer_t", "equation_Lib.Buffer.live",
+        "equation_Lib.Buffer.loc", "equation_Lib.Buffer.modifies",
         "equation_Lib.Buffer.op_Bar_Plus_Bar", "equation_Lib.Buffer.union",
-        "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.int_t",
-        "equation_Lib.IntTypes.maxint", "equation_Lib.IntTypes.minint",
-        "equation_Lib.IntTypes.pub_int_t", "equation_Lib.IntTypes.pub_int_v",
-        "equation_Lib.IntTypes.range", "equation_Lib.IntTypes.uint64",
-        "equation_Lib.IntTypes.unsigned", "equation_Lib.IntTypes.v",
-        "equation_LowStar.Buffer.buffer",
-        "equation_LowStar.Buffer.trivial_preorder",
-        "equation_LowStar.Monotonic.Buffer.length", "equation_Prims.nat",
+        "equation_Lib.IntTypes.bits", "equation_Lib.IntTypes.maxint",
+        "equation_Lib.IntTypes.minint", "equation_Lib.IntTypes.range",
+        "equation_Lib.IntTypes.uint64", "equation_Lib.IntTypes.unsigned",
+        "equation_Lib.IntTypes.v", "equation_LowStar.Buffer.buffer",
+        "equation_LowStar.Buffer.trivial_preorder", "equation_Prims.nat",
         "equation_Prims.pos", "equation_Spec.K256.PointOps.fmul",
         "equation_Spec.K256.PointOps.fsub",
         "function_token_typing_Lib.IntTypes.uint64",
         "lemma_FStar.HyperStack.ST.lemma_equal_domains_trans",
-        "lemma_FStar.UInt32.uv_inv",
         "lemma_LowStar.Monotonic.Buffer.address_liveness_insensitive_buffer",
         "lemma_LowStar.Monotonic.Buffer.loc_disjoint_sym_",
         "lemma_LowStar.Monotonic.Buffer.loc_includes_refl",
@@ -294,7 +285,6 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5",
         "refinement_interpretation_Tm_refine_9d89bf7b57667578cd0e1f4470daef3b",
         "refinement_interpretation_Tm_refine_a9487eb4f3a70e691bb2a4560909daa7",
-        "typing_Hacl.K256.Field.nlimb",
         "typing_Hacl.Spec.K256.Field52.Definitions.max48",
         "typing_Hacl.Spec.K256.Field52.Definitions.max52",
         "typing_Hacl.Spec.K256.Field52.Definitions.pow52",
@@ -303,7 +293,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "a14a3228f3fc6ac8d8e7dc3c31cd2415"
+      "b685fafd34b2088faa72ea2c074a3478"
     ],
     [
       "Hacl.Impl.K256.PointAdd.yy_mp_bzz3",
@@ -323,7 +313,7 @@
         "typing_Spec.K256.PointOps.prime"
       ],
       0,
-      "f4edf52af3320d27034e275c730f28e9"
+      "61e1fad994e9d58fe65e95ded89bd84e"
     ],
     [
       "Hacl.Impl.K256.PointAdd.yy_mp_bzz3",
@@ -425,7 +415,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "d60d50c9bbf8c8aec5759de16d57902b"
+      "801d3c99e7e7970460f9eab902c70bc6"
     ],
     [
       "Hacl.Impl.K256.PointAdd.point_add_no_alloc",
@@ -473,7 +463,7 @@
         "typing_LowStar.Monotonic.Buffer.len"
       ],
       0,
-      "6ce0633054de031d02c69ac44d81a3d7"
+      "9854c1e570e02fb84da1c031593800d0"
     ],
     [
       "Hacl.Impl.K256.PointAdd.point_add_no_alloc",
@@ -631,7 +621,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "61936b262e30b56762883cc9c4596652"
+      "a6cef90dcc5b6d22f785cba705cfa5a5"
     ],
     [
       "Hacl.Impl.K256.PointAdd.point_add_no_alloc",
@@ -787,7 +777,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "0f7f923626c3f30df202599697a5a633"
+      "be7afac024cd92bf2ddf51ed9fafd16d"
     ],
     [
       "Hacl.Impl.K256.PointAdd.point_add",
@@ -968,7 +958,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "88110c5d813c5a1acd4436ac31b59819"
+      "50e844725105c36fac9c585d3f0cdfec"
     ]
   ]
 ]
