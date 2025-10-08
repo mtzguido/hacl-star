@@ -20,12 +20,11 @@ jobs:
       matrix:
         os:
           - macos-latest
-          - ubuntu-latest
-          - windows-latest
     runs-on: ${{ matrix.os }}
 
     steps:
       - uses: actions/checkout@v4
+      - run: ls /Applications/
       - name: Run CI script
         run: .ci/script.sh
       - name: Apple Silicon Build
