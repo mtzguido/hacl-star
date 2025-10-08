@@ -2,7 +2,6 @@ name: Dist CI
 
 on:
   push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -31,17 +30,17 @@ jobs:
         if: matrix.os == 'macos-latest'
         run: |
           sudo rm -Rf /Library/Developer/CommandLineTools/SDKs/*
-          sudo xcode-select -s /Applications/Xcode_15.3.app
+          sudo xcode-select -s /Applications/Xcode_16.4.app
           CROSS_CI="aarch64-apple-darwin" .ci/script.sh
       - name: iOS aarch64
         if: matrix.os == 'macos-latest'
         run: |
           sudo rm -Rf /Library/Developer/CommandLineTools/SDKs/*
-          sudo xcode-select -s /Applications/Xcode_15.3.app
+          sudo xcode-select -s /Applications/Xcode_16.4.app
           CROSS_CI="aarch64-apple-ios" .ci/script.sh
       - name: iOS x64 simulator
         if: matrix.os == 'macos-latest'
         run: |
           sudo rm -Rf /Library/Developer/CommandLineTools/SDKs/*
-          sudo xcode-select -s /Applications/Xcode_15.3.app
+          sudo xcode-select -s /Applications/Xcode_16.4.app
           CROSS_CI="x86_64-apple-ios-simulator" .ci/script.sh
