@@ -21,7 +21,7 @@ all developed as part of [Project Everest](https://project-everest.github.io/).
 
 We are actively developing and integrating our code on the
 [main](https://github.com/project-everest/hacl-star/tree/main/)
-branch, which tracks F\*'s `master` branch.
+branch, which uses F\*'s `fstar1` branch for legacy Low\* support.
 
 ## HACL\*
 
